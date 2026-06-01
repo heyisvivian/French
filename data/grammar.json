@@ -102,5 +102,56 @@
       { "q": "Je m'attendais à ce qu'il ___.", "options": ["réagit", "réagisse", "réagira", "a réagi"], "answer": 1, "hint_zh": "s'attendre à ce que + 虚拟式 → réagisse" },
       { "q": "Pour que nous ___ réussir, il faut travailler.", "options": ["pouvons", "puissions", "pourrons", "pouvions"], "answer": 1, "hint_zh": "pour que + 虚拟式；pouvoir → puissions" }
     ]
+  },
+  {
+    "id": "g007",
+    "title": "复合过去时 passé composé",
+    "level": "A2-B1",
+    "explain_zh": "复合过去时表示【已完成、具体的过去动作】。\n构成 = 助动词（avoir 或 être 的现在时）+ 过去分词。\n• 绝大多数动词用 avoir：j'ai mangé, elle a fini, nous avons pris\n• 表示移动/状态变化的动词 + 所有代词式动词用 être，且过去分词要和主语【性数一致】：elle est allée, ils sont partis, je me suis levé(e)\n过去分词规则：-er → -é（parlé）、-ir → -i（fini）；常见不规则要背：faire→fait, prendre→pris, voir→vu, avoir→eu, être→été, mettre→mis, écrire→écrit。",
+    "examples": [
+      { "fr": "J'ai regardé un film hier soir.", "zh": "我昨晚看了一部电影。（avoir + 分词）" },
+      { "fr": "Elle est arrivée en retard.", "zh": "她迟到了。（être + 一致，加 e）" },
+      { "fr": "Ils ont pris le train.", "zh": "他们坐了火车。（不规则 prendre→pris）" }
+    ],
+    "exercises": [
+      { "q": "Hier, j'___ un bon film.", "options": ["ai regardé", "regardais", "ai regardais", "as regardé"], "answer": 0, "hint_zh": "passé composé = avoir(ai) + regardé" },
+      { "q": "Elle ___ au supermarché ce matin.", "options": ["a allé", "est allé", "est allée", "a allée"], "answer": 2, "hint_zh": "aller 用 être，阴性主语 → est allée" },
+      { "q": "Le participe passé de « prendre » est :", "options": ["prendu", "pris", "prené", "prendé"], "answer": 1, "hint_zh": "不规则：prendre → pris" },
+      { "q": "Nous ___ nos devoirs.", "options": ["avons fini", "sommes finis", "avons finit", "a fini"], "answer": 0, "hint_zh": "finir 用 avoir，分词 fini" }
+    ]
+  },
+  {
+    "id": "g008",
+    "title": "未完成过去时 imparfait",
+    "level": "B1",
+    "explain_zh": "imparfait 表示过去的【习惯、重复、背景、描写、持续状态】，没有明确的开始或结束。\n构成：取 nous 的现在时形式，去掉 -ons，得到词根，再加词尾：\n-ais / -ais / -ait / -ions / -iez / -aient。\n例：nous parlons → parl- → je parlais；nous finissons → finiss- → il finissait。\n唯一不规则词根：être → ét-（j'étais, il était…）。\n常见搭配词：quand, pendant que, tous les jours, souvent, toujours, autrefois。",
+    "examples": [
+      { "fr": "Quand j'étais jeune, je lisais beaucoup.", "zh": "我年轻时读很多书。（习惯）" },
+      { "fr": "Il faisait beau et les oiseaux chantaient.", "zh": "天气很好，鸟儿在歌唱。（背景描写）" },
+      { "fr": "Nous habitions à la campagne.", "zh": "我们那时住在乡下。（持续状态）" }
+    ],
+    "exercises": [
+      { "q": "Quand j'étais petit, je ___ souvent au parc.", "options": ["suis allé", "allais", "irai", "vais"], "answer": 1, "hint_zh": "过去习惯 → imparfait：allais" },
+      { "q": "L'imparfait de « nous faisons » à « il » est :", "options": ["il faisait", "il faisalt", "il fait", "il a fait"], "answer": 0, "hint_zh": "fais- + ait → faisait" },
+      { "q": "Il ___ froid et il pleuvait.", "options": ["a fait", "faisait", "fera", "fait"], "answer": 1, "hint_zh": "天气背景描写 → imparfait" },
+      { "q": "L'imparfait de « être » (tu) est :", "options": ["étais", "étaits", "es", "as été"], "answer": 0, "hint_zh": "être 特殊词根 ét- → tu étais" }
+    ]
+  },
+  {
+    "id": "g009",
+    "title": "passé composé 还是 imparfait？（核心区别）",
+    "level": "B1-B2",
+    "explain_zh": "两者都说过去，但角度不同：\n• imparfait = 背景、习惯、描写、持续状态（“当时是什么样 / 经常做什么”）。\n• passé composé = 推动情节的、具体完成的、一次性动作（“然后发生了什么”）。\n经典结构：背景(imparfait) + 突发动作(passé composé)：\n« Je dormais quand le téléphone a sonné. »（我正在睡觉，这时电话响了。）\n标志词：imparfait → souvent, tous les jours, autrefois, pendant que；passé composé → soudain, hier, un jour, à ce moment-là, tout à coup。",
+    "examples": [
+      { "fr": "Je lisais quand tu es arrivé.", "zh": "你来的时候我正在看书。（背景 + 突发）" },
+      { "fr": "Tous les étés, nous allions à la mer.", "zh": "每年夏天我们都去海边。（习惯 → imparfait）" },
+      { "fr": "Hier, j'ai rencontré un vieil ami.", "zh": "昨天我遇见了一位老朋友。（一次性 → passé composé）" }
+    ],
+    "exercises": [
+      { "q": "Je ___ (dormir) quand le téléphone a sonné.", "options": ["ai dormi", "dormais", "dormirai", "dors"], "answer": 1, "hint_zh": "正在进行的背景 → imparfait：dormais" },
+      { "q": "Soudain, quelqu'un ___ à la porte.", "options": ["frappait", "a frappé", "frappe", "frappera"], "answer": 1, "hint_zh": "soudain（突发）→ passé composé" },
+      { "q": "Quand j'étais enfant, nous ___ souvent au cinéma.", "options": ["sommes allés", "allions", "irons", "allons"], "answer": 1, "hint_zh": "souvent（习惯）→ imparfait" },
+      { "q": "Hier soir, il ___ un accident sur l'autoroute.", "options": ["y avait", "il y a eu", "aura", "a"], "answer": 1, "hint_zh": "一次性事件 → passé composé：il y a eu" }
+    ]
   }
 ]

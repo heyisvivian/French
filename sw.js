@@ -1,5 +1,5 @@
 /* Service worker: cache the app shell + data for offline use. */
-const CACHE = "frenchb2-v1";
+const CACHE = "frenchb2-v2";
 const ASSETS = [
   "./",
   "./index.html",
@@ -8,6 +8,7 @@ const ASSETS = [
   "./manifest.json",
   "./data/vocab.json",
   "./data/grammar.json",
+  "./data/conjugation.json",
   "./data/reading.json",
   "./data/listening.json",
   "./icons/icon-192.png",

@@ -20,5 +20,27 @@
       { "q": "Comment réagissent les bénévoles ?", "options": ["Ils sont contents", "Ils sont découragés et frustrés", "Ils ne savent rien", "Ils créent de nouveaux projets"], "answer": 1, "explain_zh": "文中说 « décourage les bénévoles » 和 « c'est frustrant »。" },
       { "q": "Quel est l'enjeu principal pour les responsables ?", "options": ["Recruter des bénévoles", "Trouver de nouveaux financements", "Fermer l'association", "Réduire les missions"], "answer": 1, "explain_zh": "« trouver de nouveaux moyens de financement »（寻找新的资金来源）。" }
     ]
+  },
+  {
+    "id": "r003",
+    "level": "B1-B2",
+    "title": "Le télétravail, un équilibre à trouver",
+    "text_fr": "Depuis quelques années, le télétravail s'est largement répandu. Pour de nombreux salariés, il représente un réel avantage : ils gagnent du temps de transport et organisent leur journée plus librement. En revanche, certains se plaignent d'un sentiment d'isolement et avouent avoir du mal à séparer vie professionnelle et vie privée. Selon un récent sondage, la plupart des employés souhaitent désormais un modèle « hybride », c'est-à-dire quelques jours au bureau et le reste à la maison. Les experts soulignent qu'un tel équilibre est sans doute la solution la plus durable.",
+    "questions": [
+      { "q": "Quel avantage du télétravail est cité ?", "options": ["Un meilleur salaire", "Un gain de temps de transport", "Plus de collègues", "Moins de travail"], "answer": 1, "explain_zh": "« ils gagnent du temps de transport »。" },
+      { "q": "Que révèle le sondage ?", "options": ["Tous veulent rester à la maison", "La plupart préfèrent un modèle hybride", "Personne n'aime le télétravail", "Le bureau va disparaître"], "answer": 1, "explain_zh": "« la plupart des employés souhaitent un modèle hybride »。" },
+      { "q": "« en revanche » sert à exprimer :", "options": ["une cause", "une conséquence", "une opposition", "un exemple"], "answer": 2, "explain_zh": "en revanche = 相反，表示对比/对立。" }
+    ]
+  },
+  {
+    "id": "r004",
+    "level": "B1-B2",
+    "title": "Manger local : une tendance qui grandit",
+    "text_fr": "De plus en plus de consommateurs choisissent d'acheter des produits locaux et de saison. Selon eux, cette démarche permet à la fois de soutenir les agriculteurs de la région et de réduire le gaspillage ainsi que la pollution liée au transport. Malgré un prix parfois plus élevé, la plupart estiment que les avantages l'emportent largement. « Quant à moi, je préfère payer un peu plus cher, mais savoir d'où vient ce que je mange », explique une cliente. Par conséquent, de nombreux marchés de producteurs ont vu le jour ces dernières années.",
+    "questions": [
+      { "q": "Pourquoi ces consommateurs achètent-ils local ?", "options": ["Parce que c'est moins cher", "Pour soutenir les agriculteurs et réduire la pollution", "Parce qu'il n'y a rien d'autre", "Pour gagner du temps"], "answer": 1, "explain_zh": "« soutenir les agriculteurs… réduire le gaspillage… la pollution »。" },
+      { "q": "Que pensent-ils du prix plus élevé ?", "options": ["C'est inacceptable", "Les avantages l'emportent quand même", "Ils refusent de payer", "Le prix est toujours bas"], "answer": 1, "explain_zh": "« les avantages l'emportent largement »（好处远超缺点）。" },
+      { "q": "Quelle est la conséquence mentionnée ?", "options": ["Les marchés ferment", "De nombreux marchés de producteurs ont ouvert", "Les prix ont baissé", "Personne n'achète plus"], "answer": 1, "explain_zh": "« de nombreux marchés de producteurs ont vu le jour »。" }
+    ]
   }
 ]

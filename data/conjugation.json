@@ -1,0 +1,98 @@
+[
+  {
+    "id": "cj01",
+    "tense_zh": "现在时 présent（-er 规则动词）",
+    "rule_zh": "-er 动词现在时词尾：je -e / tu -es / il -e / nous -ons / vous -ez / ils -ent。注意 -ger 动词 nous 形式保留 e：mangeons。",
+    "items": [
+      { "sentence": "Je ___ (parler) français tous les jours.", "infinitive": "parler", "answers": ["parle"], "full": "Je parle français tous les jours.", "hint_zh": "je + -er → -e（无 s）" },
+      { "sentence": "Nous ___ (manger) à midi.", "infinitive": "manger", "answers": ["mangeons"], "full": "Nous mangeons à midi.", "hint_zh": "-ger 动词 nous 形式保留 e → mangeons" },
+      { "sentence": "Ils ___ (regarder) un film.", "infinitive": "regarder", "answers": ["regardent"], "full": "Ils regardent un film.", "hint_zh": "ils → -ent（不发音）" },
+      { "sentence": "Tu ___ (habiter) à Paris ?", "infinitive": "habiter", "answers": ["habites"], "full": "Tu habites à Paris ?", "hint_zh": "tu → -es" },
+      { "sentence": "Vous ___ (travailler) beaucoup.", "infinitive": "travailler", "answers": ["travaillez"], "full": "Vous travaillez beaucoup.", "hint_zh": "vous → -ez" }
+    ]
+  },
+  {
+    "id": "cj02",
+    "tense_zh": "现在时 présent（不规则：être / avoir / aller / faire）",
+    "rule_zh": "高频不规则动词必须背：être(suis,es,est,sommes,êtes,sont)、avoir(ai,as,a,avons,avez,ont)、aller(vais,vas,va,allons,allez,vont)、faire(fais,fais,fait,faisons,faites,font)。",
+    "items": [
+      { "sentence": "Je ___ (être) étudiant.", "infinitive": "être", "answers": ["suis"], "full": "Je suis étudiant.", "hint_zh": "être: je suis" },
+      { "sentence": "Elle ___ (avoir) vingt ans.", "infinitive": "avoir", "answers": ["a"], "full": "Elle a vingt ans.", "hint_zh": "avoir: elle a" },
+      { "sentence": "Nous ___ (aller) au cinéma.", "infinitive": "aller", "answers": ["allons"], "full": "Nous allons au cinéma.", "hint_zh": "aller: nous allons" },
+      { "sentence": "Vous ___ (faire) du sport ?", "infinitive": "faire", "answers": ["faites"], "full": "Vous faites du sport ?", "hint_zh": "faire: vous faites（不规则）" },
+      { "sentence": "Ils ___ (être) contents.", "infinitive": "être", "answers": ["sont"], "full": "Ils sont contents.", "hint_zh": "être: ils sont" }
+    ]
+  },
+  {
+    "id": "cj03",
+    "tense_zh": "复合过去时 passé composé（avoir + 过去分词）",
+    "rule_zh": "构成 = avoir 的现在时 + 过去分词。-er → -é，-ir → -i，常见不规则：prendre→pris, faire→fait, voir→vu, avoir→eu, être→été。表示已完成、具体的动作。",
+    "items": [
+      { "sentence": "Hier, j'___ (manger) une pizza.", "infinitive": "manger", "answers": ["ai mangé"], "full": "Hier, j'ai mangé une pizza.", "hint_zh": "avoir(ai) + manger→mangé" },
+      { "sentence": "Elle ___ (parler) à son ami.", "infinitive": "parler", "answers": ["a parlé"], "full": "Elle a parlé à son ami.", "hint_zh": "elle a + parlé" },
+      { "sentence": "Nous ___ (regarder) un film.", "infinitive": "regarder", "answers": ["avons regardé"], "full": "Nous avons regardé un film.", "hint_zh": "nous avons + regardé" },
+      { "sentence": "Ils ___ (finir) leurs devoirs.", "infinitive": "finir", "answers": ["ont fini"], "full": "Ils ont fini leurs devoirs.", "hint_zh": "-ir 动词 → fini" },
+      { "sentence": "Tu ___ (prendre) le bus ?", "infinitive": "prendre", "answers": ["as pris"], "full": "Tu as pris le bus ?", "hint_zh": "不规则：prendre → pris" }
+    ]
+  },
+  {
+    "id": "cj04",
+    "tense_zh": "复合过去时 passé composé（être + 一致）",
+    "rule_zh": "移动/状态变化动词（aller, venir, partir, arriver, entrer, sortir, monter, descendre, rester, tomber, naître, mourir, devenir…）和所有代词式动词用 être 作助动词，过去分词与主语【性数一致】。",
+    "items": [
+      { "sentence": "Elle ___ (aller) au marché.", "infinitive": "aller", "answers": ["est allée"], "full": "Elle est allée au marché.", "hint_zh": "être + 阴性主语 → allée（加 e）" },
+      { "sentence": "Ils ___ (partir) tôt.", "infinitive": "partir", "answers": ["sont partis"], "full": "Ils sont partis tôt.", "hint_zh": "être + 阳性复数 → partis" },
+      { "sentence": "Je (femme) ___ (arriver) hier.", "infinitive": "arriver", "answers": ["suis arrivée"], "full": "Je suis arrivée hier.", "hint_zh": "主语是女性 → arrivée" },
+      { "sentence": "Nous ___ (rentrer) tard.", "infinitive": "rentrer", "answers": ["sommes rentrés", "sommes rentrées"], "full": "Nous sommes rentrés tard.", "hint_zh": "être + 复数 → rentrés/rentrées" },
+      { "sentence": "Marie ___ (naître) en 1990.", "infinitive": "naître", "answers": ["est née"], "full": "Marie est née en 1990.", "hint_zh": "naître → né，阴性 née" }
+    ]
+  },
+  {
+    "id": "cj05",
+    "tense_zh": "未完成过去时 imparfait",
+    "rule_zh": "词根 = nous 现在时去掉 -ons，加词尾 -ais/-ais/-ait/-ions/-iez/-aient。唯一特殊：être → ét-。表示过去的习惯、重复、背景描写、状态。",
+    "items": [
+      { "sentence": "Quand j'étais petit, je ___ (jouer) au foot.", "infinitive": "jouer", "answers": ["jouais"], "full": "Quand j'étais petit, je jouais au foot.", "hint_zh": "nous jouons → jou- + ais" },
+      { "sentence": "Il ___ (faire) beau ce jour-là.", "infinitive": "faire", "answers": ["faisait"], "full": "Il faisait beau ce jour-là.", "hint_zh": "nous faisons → fais- + ait" },
+      { "sentence": "Nous ___ (habiter) à Lyon.", "infinitive": "habiter", "answers": ["habitions"], "full": "Nous habitions à Lyon.", "hint_zh": "habit- + ions" },
+      { "sentence": "Ils ___ (avoir) une grande maison.", "infinitive": "avoir", "answers": ["avaient"], "full": "Ils avaient une grande maison.", "hint_zh": "nous avons → av- + aient" },
+      { "sentence": "Tu ___ (être) toujours en retard.", "infinitive": "être", "answers": ["étais"], "full": "Tu étais toujours en retard.", "hint_zh": "être 特殊词根 ét- → étais" }
+    ]
+  },
+  {
+    "id": "cj06",
+    "tense_zh": "选时态：passé composé 还是 imparfait？",
+    "rule_zh": "背景/习惯/描写 → imparfait；具体完成的、一次性动作 → passé composé。读句子的提示词来判断。",
+    "items": [
+      { "sentence": "Tous les jours, il ___ (prendre) le bus.（习惯）", "infinitive": "prendre", "answers": ["prenait"], "full": "Tous les jours, il prenait le bus.", "hint_zh": "习惯 → imparfait：prenait" },
+      { "sentence": "Soudain, elle ___ (entrer) dans la pièce.（突发）", "infinitive": "entrer", "answers": ["est entrée"], "full": "Soudain, elle est entrée dans la pièce.", "hint_zh": "突发具体动作 → passé composé(être)：est entrée" },
+      { "sentence": "Il faisait froid et il ___ (neiger).（描写）", "infinitive": "neiger", "answers": ["neigeait"], "full": "Il faisait froid et il neigeait.", "hint_zh": "天气背景 → imparfait：neigeait" },
+      { "sentence": "Hier, nous ___ (visiter) le musée.（一次完成）", "infinitive": "visiter", "answers": ["avons visité"], "full": "Hier, nous avons visité le musée.", "hint_zh": "明确完成 → passé composé：avons visité" },
+      { "sentence": "Avant, je n'___ (aimer) pas le café.（过去状态）", "infinitive": "aimer", "answers": ["aimais"], "full": "Avant, je n'aimais pas le café.", "hint_zh": "过去的状态/习惯 → imparfait：n'aimais pas" }
+    ]
+  },
+  {
+    "id": "cj07",
+    "tense_zh": "简单将来时 futur simple",
+    "rule_zh": "词根 = 动词原形（-re 去掉 e）+ 词尾 -ai/-as/-a/-ons/-ez/-ont。不规则词根：être→ser-, avoir→aur-, aller→ir-, faire→fer-, pouvoir→pourr-, venir→viendr-。",
+    "items": [
+      { "sentence": "Demain, je ___ (partir) à huit heures.", "infinitive": "partir", "answers": ["partirai"], "full": "Demain, je partirai à huit heures.", "hint_zh": "partir + ai → partirai" },
+      { "sentence": "Nous ___ (finir) le projet bientôt.", "infinitive": "finir", "answers": ["finirons"], "full": "Nous finirons le projet bientôt.", "hint_zh": "finir + ons" },
+      { "sentence": "Ils ___ (être) là demain.", "infinitive": "être", "answers": ["seront"], "full": "Ils seront là demain.", "hint_zh": "不规则词根 ser- → seront" },
+      { "sentence": "Tu ___ (avoir) le temps ?", "infinitive": "avoir", "answers": ["auras"], "full": "Tu auras le temps ?", "hint_zh": "不规则词根 aur- → auras" },
+      { "sentence": "Elle ___ (aller) en France.", "infinitive": "aller", "answers": ["ira"], "full": "Elle ira en France.", "hint_zh": "不规则词根 ir- → ira" }
+    ]
+  },
+  {
+    "id": "cj08",
+    "tense_zh": "条件式现在时 conditionnel présent（礼貌/假设）",
+    "rule_zh": "词根 = 将来时词根 + imparfait 词尾(-ais/-ais/-ait/-ions/-iez/-aient)。常用于礼貌请求和 si 假设句。",
+    "items": [
+      { "sentence": "Je ___ (aimer) un café, s'il vous plaît.", "infinitive": "aimer", "answers": ["aimerais"], "full": "Je voudrais un café, s'il vous plaît.", "hint_zh": "aimer + ais → aimerais（礼貌）" },
+      { "sentence": "Tu ___ (pouvoir) m'aider ?", "infinitive": "pouvoir", "answers": ["pourrais"], "full": "Tu pourrais m'aider ?", "hint_zh": "词根 pourr- + ais → pourrais" },
+      { "sentence": "Nous ___ (vouloir) réserver une table.", "infinitive": "vouloir", "answers": ["voudrions"], "full": "Nous voudrions réserver une table.", "hint_zh": "词根 voudr- + ions" },
+      { "sentence": "Il ___ (être) content de venir.", "infinitive": "être", "answers": ["serait"], "full": "Il serait content de venir.", "hint_zh": "词根 ser- + ait → serait" },
+      { "sentence": "Vous ___ (devoir) vous reposer.", "infinitive": "devoir", "answers": ["devriez"], "full": "Vous devriez vous reposer.", "hint_zh": "词根 devr- + iez → devriez（建议）" }
+    ]
+  }
+]

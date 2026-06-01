@@ -20,5 +20,27 @@
       { "q": "Quel inconvénient est évoqué ?", "options": ["Le bruit", "Le sentiment d'isolement", "Le coût élevé", "Le manque d'ordinateurs"], "answer": 1, "explain_zh": "« certains salariés se sentent isolés »（感到孤立）。" },
       { "q": "Que recommandent les experts ?", "options": ["Arrêter le télétravail", "Trouver un équilibre avec des horaires fixes", "Travailler la nuit", "Ne jamais aller au bureau"], "answer": 1, "explain_zh": "« il faut trouver un équilibre … horaires fixes »（找到平衡，固定作息）。" }
     ]
+  },
+  {
+    "id": "l003",
+    "level": "B1-B2",
+    "title": "Annonce en gare",
+    "transcript_fr": "Mesdames et messieurs, votre attention s'il vous plaît. Le train à destination de Lyon, prévu à quatorze heures dix, partira finalement du quai numéro huit avec un retard d'environ quinze minutes. Nous vous prions de bien vouloir nous excuser pour la gêne occasionnée. Les voyageurs à destination de Marseille sont invités à se présenter au quai numéro trois. Merci de votre compréhension.",
+    "questions": [
+      { "q": "De quel quai part le train pour Lyon ?", "options": ["Quai 3", "Quai 8", "Quai 10", "Quai 14"], "answer": 1, "explain_zh": "« partira du quai numéro huit »。" },
+      { "q": "Quel est le problème avec ce train ?", "options": ["Il est annulé", "Il a environ 15 minutes de retard", "Il est complet", "Il part en avance"], "answer": 1, "explain_zh": "« un retard d'environ quinze minutes »。" },
+      { "q": "Où doivent aller les voyageurs pour Marseille ?", "options": ["Quai 8", "Quai 3", "À la sortie", "Au guichet"], "answer": 1, "explain_zh": "« se présenter au quai numéro trois »。" }
+    ]
+  },
+  {
+    "id": "l004",
+    "level": "B2",
+    "title": "Micro-trottoir : les réseaux sociaux",
+    "transcript_fr": "Personnellement, je pense que les réseaux sociaux ont complètement changé notre façon de communiquer. D'un côté, c'est génial : on reste en contact avec des gens du monde entier, on s'informe en temps réel. Mais d'un autre côté, je trouve qu'on passe beaucoup trop de temps devant nos écrans, et on a parfois du mal à vérifier si une information est fiable. À mon avis, le plus important, c'est d'apprendre à garder un certain recul et à ne pas tout croire.",
+    "questions": [
+      { "q": "Quel aspect positif la personne mentionne-t-elle ?", "options": ["On gagne de l'argent", "On reste en contact et on s'informe vite", "On dort mieux", "On lit plus de livres"], "answer": 1, "explain_zh": "« on reste en contact… on s'informe en temps réel »。" },
+      { "q": "Quel inconvénient évoque-t-elle ?", "options": ["Trop de temps devant les écrans et infos peu fiables", "Le coût des abonnements", "Le manque d'amis", "La lenteur d'Internet"], "answer": 0, "explain_zh": "« trop de temps devant nos écrans… vérifier si une information est fiable »。" },
+      { "q": "Que recommande-t-elle ?", "options": ["Tout croire", "Garder du recul et ne pas tout croire", "Supprimer Internet", "Ne jamais s'informer"], "answer": 1, "explain_zh": "« garder un certain recul et ne pas tout croire »。" }
+    ]
   }
 ]
