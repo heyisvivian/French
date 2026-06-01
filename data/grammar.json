@@ -1,0 +1,106 @@
+[
+  {
+    "id": "g001",
+    "title": "« de + le / les » 的缩合",
+    "level": "A2",
+    "explain_zh": "介词 de 遇到定冠词 le / les 时必须缩合，不能分开写：\n• de + le → du（例：la fin du film）\n• de + les → des（例：la maison des voisins）\n• de + la → de la（不变）\n• de + l' → de l'（不变）\n这是你测试里写错的地方：« de les jeunes » 应为 « des jeunes »，« passer de temps » 应为 « passer du temps »。",
+    "examples": [
+      { "fr": "Je parle des enfants.", "zh": "（de + les）我在说这些孩子。" },
+      { "fr": "C'est la voiture du voisin.", "zh": "（de + le）这是邻居的车。" },
+      { "fr": "J'aime passer du temps dehors.", "zh": "我喜欢在外面待着。" }
+    ],
+    "exercises": [
+      { "q": "Les jeunes passent beaucoup ___ temps en ligne.", "options": ["de", "du", "des", "de la"], "answer": 1, "hint_zh": "de + le temps → du temps" },
+      { "q": "C'est l'opinion ___ experts.", "options": ["de", "du", "des", "de l'"], "answer": 2, "hint_zh": "de + les experts → des experts" },
+      { "q": "Il s'occupe ___ environnement.", "options": ["du", "des", "de l'", "de la"], "answer": 2, "hint_zh": "environnement 以元音开头 → de l'" },
+      { "q": "La protection ___ planète est essentielle.", "options": ["du", "de la", "des", "de l'"], "answer": 1, "hint_zh": "la planète 阴性 → de la" },
+      { "q": "Beaucoup ___ gens pensent ça.", "options": ["de", "du", "des", "de la"], "answer": 0, "hint_zh": "陷阱：beaucoup de + 名词，永远用 de，不缩合！" }
+    ]
+  },
+  {
+    "id": "g002",
+    "title": "否定 ne ... pas（别漏掉 ne！）",
+    "level": "A2",
+    "explain_zh": "标准否定要把动词夹在 ne ... pas 中间：sujet + ne + 动词 + pas。\n口语里法国人常省略 ne，但写作（尤其 B2 考试）必须写出 ne。\n你测试里写的 « ç'est pas bien » 应为 « ce n'est pas bien »（ne 在元音前缩为 n'）。\n其他否定词：ne ... jamais（从不）、ne ... plus（不再）、ne ... rien（什么都不）。",
+    "examples": [
+      { "fr": "Ce n'est pas une bonne idée.", "zh": "这不是个好主意。" },
+      { "fr": "Je ne comprends pas.", "zh": "我不明白。" },
+      { "fr": "Il ne fume plus.", "zh": "他不再抽烟了。" }
+    ],
+    "exercises": [
+      { "q": "« C'est pas grave » 的正式书面形式是：", "options": ["Ce n'est pas grave", "Ce est pas grave", "C'est ne pas grave", "Ce n'est grave pas"], "answer": 0, "hint_zh": "ne + est → n'est，pas 放动词后" },
+      { "q": "Je ___ comprends ___ la question.", "options": ["ne / pas", "pas / ne", "n' / pas", "ne / rien"], "answer": 0, "hint_zh": "comprends 以辅音开头 → ne（不缩合）" },
+      { "q": "Elle ___ mange ___ de viande.", "options": ["ne / plus", "pas / ne", "n' / plus", "ne / pas plus"], "answer": 0, "hint_zh": "不再 = ne ... plus" },
+      { "q": "正确的句子是：", "options": ["Il n'a rien dit.", "Il a rien dit pas.", "Il ne a rien dit.", "Il n'a pas rien dit."], "answer": 0, "hint_zh": "ne ... rien，复合时态里 rien 放助动词后" }
+    ]
+  },
+  {
+    "id": "g003",
+    "title": "一般现在时：主语和动词要一致",
+    "level": "A2",
+    "explain_zh": "-er 结尾动词（如 parler, occuper, trouver）现在时变位：\n• je parle（无 -s！）\n• tu parles\n• il/elle/on parle（无 -s！）\n• nous parlons\n• vous parlez\n• ils/elles parlent\n你测试里 « je trouves » 应为 « je trouve »，« le smartphone occupes » 应为 « occupe »（主语第三人称单数）。",
+    "examples": [
+      { "fr": "Je trouve que c'est utile.", "zh": "我觉得这很有用。" },
+      { "fr": "Le téléphone occupe trop de place.", "zh": "手机占据了太多位置。" },
+      { "fr": "Ils partagent tout en ligne.", "zh": "他们把一切都发到网上。" }
+    ],
+    "exercises": [
+      { "q": "Je ___ que c'est important.", "options": ["trouve", "trouves", "trouvent", "trouver"], "answer": 0, "hint_zh": "je + -er 动词 → 词尾 -e，无 s" },
+      { "q": "Le smartphone ___ tout notre temps.", "options": ["occupe", "occupes", "occupent", "occuper"], "answer": 0, "hint_zh": "il/le smartphone（第三人称单数）→ -e" },
+      { "q": "Les jeunes ___ beaucoup de photos.", "options": ["partage", "partages", "partagent", "partager"], "answer": 2, "hint_zh": "ils/les jeunes（复数）→ -ent" },
+      { "q": "Nous ___ ce problème.", "options": ["étudie", "étudies", "étudions", "étudient"], "answer": 2, "hint_zh": "nous → -ons" }
+    ]
+  },
+  {
+    "id": "g004",
+    "title": "名词与形容词的性数一致",
+    "level": "A2-B1",
+    "explain_zh": "形容词要和它修饰的名词在「阴阳性」和「单复数」上保持一致：\n• 阴性常 +e：grand → grande\n• 复数常 +s：grand → grands / grandes\n你测试里 « ils sont uncapable » 应为 « incapables »（复数 +s，且拼写是 in-），« les information partagé » 应为 « les informations partagées »（阴性复数）。",
+    "examples": [
+      { "fr": "une décision importante", "zh": "一个重要的决定（阴性 +e）" },
+      { "fr": "des informations fiables", "zh": "可靠的信息（阴性复数 +s）" },
+      { "fr": "Ils sont incapables de mentir.", "zh": "他们不会说谎（阳性复数）。" }
+    ],
+    "exercises": [
+      { "q": "Les ___ partagées ne sont pas toujours vraies.", "options": ["information", "informations", "informationes", "informations"], "answer": 1, "hint_zh": "information 阴性，复数 +s → informations" },
+      { "q": "Ces sources sont ___.", "options": ["fiable", "fiables", "fiabes", "fiablees"], "answer": 1, "hint_zh": "sources 复数 → fiables" },
+      { "q": "Une habitude ___.", "options": ["néfaste", "néfastes", "néfast", "néfasté"], "answer": 0, "hint_zh": "habitude 阴性单数；néfaste 本来就以 -e 结尾，不再加" },
+      { "q": "Ils sont ___ de vérifier.", "options": ["incapable", "incapables", "uncapable", "incapablent"], "answer": 1, "hint_zh": "拼写 in-，主语复数 → incapables" }
+    ]
+  },
+  {
+    "id": "g005",
+    "title": "关系代词 qui / que / dont / où",
+    "level": "B1",
+    "explain_zh": "关系代词把两句话连起来，选哪个取决于它在从句里的角色：\n• qui = 从句的【主语】（后面直接跟动词）：l'homme qui parle\n• que = 从句的【直接宾语】（后面跟主语）：le livre que je lis\n• dont = 替代带 de 的成分（parler de, avoir besoin de…）：le livre dont je parle\n• où = 表示【地点或时间】：la ville où j'habite / le jour où…\n你测试里：« un appartement qui soit lumineux »（qui 作主语），« le livre dont je t'ai parlé »（parler de → dont）。",
+    "examples": [
+      { "fr": "Je cherche un ami qui sache écouter.", "zh": "我在找一个会倾听的朋友（qui 作主语）。" },
+      { "fr": "C'est le sujet dont nous parlons.", "zh": "这就是我们谈论的话题（parler de → dont）。" },
+      { "fr": "Le jour où je suis arrivé, il pleuvait.", "zh": "我到达的那天在下雨（时间 → où）。" }
+    ],
+    "exercises": [
+      { "q": "Je cherche un appartement ___ soit lumineux.", "options": ["qui", "que", "dont", "où"], "answer": 0, "hint_zh": "后面直接是动词 soit → 主语 → qui" },
+      { "q": "Le livre ___ je t'ai parlé est sorti.", "options": ["que", "qui", "dont", "où"], "answer": 2, "hint_zh": "parler DE qch → dont" },
+      { "q": "C'est une décision ___ je regrette.", "options": ["qui", "que", "dont", "où"], "answer": 1, "hint_zh": "regretter qch（直接宾语）→ que" },
+      { "q": "La ville ___ je suis né est petite.", "options": ["qui", "que", "dont", "où"], "answer": 3, "hint_zh": "地点 → où" },
+      { "q": "J'ai un ami ___ le père est médecin.", "options": ["qui", "que", "dont", "où"], "answer": 2, "hint_zh": "le père DE mon ami → dont" }
+    ]
+  },
+  {
+    "id": "g006",
+    "title": "虚拟式（subjonctif）入门：il faut que / bien que",
+    "level": "B1-B2",
+    "explain_zh": "某些表达后面必须用虚拟式（subjonctif），表示愿望、必要、情感、让步等。\n常见触发词：il faut que（必须）、bien que / quoique（虽然）、je veux que、pour que（为了）、s'attendre à ce que、avant que。\n规则变位（多数动词）：取 ils 形式去掉 -ent，加 -e/-es/-e/-ions/-iez/-ent。\n例：partir → ils partent → que je parte, que tu partes…\n你测试里：« il faut que tu partes »、« je m'attendais à ce qu'il réagisse »。",
+    "examples": [
+      { "fr": "Il faut que tu partes tôt.", "zh": "你必须早点走。" },
+      { "fr": "Bien qu'il soit riche, il vit simplement.", "zh": "虽然他很富有，却生活简朴。" },
+      { "fr": "Je veux que vous compreniez.", "zh": "我希望你们能理解。" }
+    ],
+    "exercises": [
+      { "q": "Il faut que tu ___ plus tôt demain.", "options": ["pars", "partes", "partiras", "partais"], "answer": 1, "hint_zh": "il faut que + 虚拟式 → partes" },
+      { "q": "Bien qu'il ___ riche, il est modeste.", "options": ["est", "soit", "sera", "était"], "answer": 1, "hint_zh": "bien que + 虚拟式；être 的虚拟式 → soit" },
+      { "q": "Je m'attendais à ce qu'il ___.", "options": ["réagit", "réagisse", "réagira", "a réagi"], "answer": 1, "hint_zh": "s'attendre à ce que + 虚拟式 → réagisse" },
+      { "q": "Pour que nous ___ réussir, il faut travailler.", "options": ["pouvons", "puissions", "pourrons", "pouvions"], "answer": 1, "hint_zh": "pour que + 虚拟式；pouvoir → puissions" }
+    ]
+  }
+]

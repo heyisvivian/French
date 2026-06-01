@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#1f3a93" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="French B2" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icons/icon-180.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>French B2 · 每日法语</title>
+</head>
+<body>
+  <header id="app-header">
+    <div class="brand">🇫🇷 <span>French B2</span></div>
+    <div class="stats">
+      <span id="timer" class="pill" title="本次学习时长">⏱️ 0:00</span>
+      <span id="streak" class="pill" title="连续学习天数">🔥 0</span>
+    </div>
+  </header>
+
+  <main id="view"><!-- screens render here --></main>
+
+  <footer id="app-footer">
+    <div id="progress-wrap" hidden>
+      <div id="progress-bar"></div>
+    </div>
+    <div id="action-bar"><!-- contextual buttons --></div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

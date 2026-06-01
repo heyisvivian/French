@@ -1,0 +1,24 @@
+[
+  {
+    "id": "r001",
+    "level": "B1",
+    "title": "Les écrans et les jeunes",
+    "text_fr": "Aujourd'hui, les smartphones font partie du quotidien des jeunes. Ils permettent de rester en contact avec les amis et d'accéder rapidement à l'information. Pourtant, de nombreux spécialistes s'inquiètent : un usage excessif des écrans peut nuire au sommeil, à la concentration et même aux relations familiales. Certains parents choisissent donc de limiter le temps passé devant l'écran, quitte à provoquer des disputes. Selon eux, il est essentiel que les jeunes apprennent à vérifier les informations qu'ils partagent et à passer du temps hors ligne.",
+    "questions": [
+      { "q": "Selon le texte, quel est un avantage du smartphone ?", "options": ["Il améliore le sommeil", "Il permet de rester en contact avec les amis", "Il remplace l'école", "Il calme les disputes"], "answer": 1, "explain_zh": "文中说手机让人 « rester en contact avec les amis »（与朋友保持联系）。" },
+      { "q": "Pourquoi les spécialistes s'inquiètent-ils ?", "options": ["Les écrans coûtent cher", "Un usage excessif peut nuire à la santé et aux relations", "Les jeunes ne savent pas lire", "Il n'y a pas assez de smartphones"], "answer": 1, "explain_zh": "« nuire au sommeil, à la concentration et aux relations » = 损害睡眠、注意力和人际关系。" },
+      { "q": "« quitte à provoquer des disputes » signifie :", "options": ["pour éviter les disputes", "même si cela provoque des disputes", "sans aucune dispute", "avant les disputes"], "answer": 1, "explain_zh": "« quitte à + 动词原形 » = 即使会导致……（甘冒……的风险）。" }
+    ]
+  },
+  {
+    "id": "r002",
+    "level": "B1-B2",
+    "title": "Le bénévolat en difficulté",
+    "text_fr": "Faute de financements suffisants, de nombreuses associations ont dû renoncer à une partie de leurs projets cette année. Cette situation décourage les bénévoles, qui s'étaient pourtant fortement investis. « Nous comprenons les difficultés, mais c'est frustrant », explique l'une d'elles. Pour les responsables, l'enjeu est désormais de trouver de nouveaux moyens de financement afin de poursuivre leur mission. Ils soulignent que, sans le soutien du public, beaucoup d'actions deviendront tout simplement impossibles.",
+    "questions": [
+      { "q": "Pourquoi les associations ont-elles abandonné des projets ?", "options": ["Trop de bénévoles", "Un manque de financements", "Trop de projets réussis", "Un changement de loi"], "answer": 1, "explain_zh": "« Faute de financements suffisants » = 由于缺乏足够资金。" },
+      { "q": "Comment réagissent les bénévoles ?", "options": ["Ils sont contents", "Ils sont découragés et frustrés", "Ils ne savent rien", "Ils créent de nouveaux projets"], "answer": 1, "explain_zh": "文中说 « décourage les bénévoles » 和 « c'est frustrant »。" },
+      { "q": "Quel est l'enjeu principal pour les responsables ?", "options": ["Recruter des bénévoles", "Trouver de nouveaux financements", "Fermer l'association", "Réduire les missions"], "answer": 1, "explain_zh": "« trouver de nouveaux moyens de financement »（寻找新的资金来源）。" }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "l001",
+    "level": "B1",
+    "title": "Message : un rendez-vous reporté",
+    "transcript_fr": "Bonjour Camille, c'est Julien. Je t'appelle parce que notre réunion de demain matin est reportée. Le directeur n'est pas disponible avant quatorze heures. Est-ce que tu serais libre demain après-midi, vers quinze heures, au lieu de neuf heures ? Si ça ne te convient pas, on peut aussi se voir vendredi. Rappelle-moi quand tu peux. Merci, à bientôt !",
+    "questions": [
+      { "q": "Pourquoi Julien appelle-t-il ?", "options": ["Pour annuler définitivement la réunion", "Parce que la réunion est reportée", "Pour inviter Camille à déjeuner", "Pour parler du directeur"], "answer": 1, "explain_zh": "« notre réunion de demain matin est reportée »（会议被推迟了）。" },
+      { "q": "À quelle heure était prévue la réunion au départ ?", "options": ["À quatorze heures", "À quinze heures", "À neuf heures", "Vendredi"], "answer": 2, "explain_zh": "« au lieu de neuf heures » → 原定九点。" },
+      { "q": "Quelle est l'autre solution proposée par Julien ?", "options": ["Se voir vendredi", "Annuler le projet", "Appeler le directeur", "Se voir lundi"], "answer": 0, "explain_zh": "« on peut aussi se voir vendredi »（也可以周五见）。" }
+    ]
+  },
+  {
+    "id": "l002",
+    "level": "B1-B2",
+    "title": "Chronique : le télétravail",
+    "transcript_fr": "De plus en plus d'entreprises proposent le télétravail à leurs employés. Pour beaucoup, c'est un véritable avantage : on gagne du temps de transport et on est souvent plus concentré chez soi. Néanmoins, certains salariés se sentent isolés et ont du mal à séparer vie professionnelle et vie privée. Les experts soulignent qu'il faut trouver un équilibre, par exemple en gardant des horaires fixes et en se déplaçant au bureau quelques jours par semaine.",
+    "questions": [
+      { "q": "Quel avantage du télétravail est mentionné ?", "options": ["On gagne plus d'argent", "On gagne du temps de transport", "On travaille moins", "On voit plus de collègues"], "answer": 1, "explain_zh": "« on gagne du temps de transport »（节省通勤时间）。" },
+      { "q": "Quel inconvénient est évoqué ?", "options": ["Le bruit", "Le sentiment d'isolement", "Le coût élevé", "Le manque d'ordinateurs"], "answer": 1, "explain_zh": "« certains salariés se sentent isolés »（感到孤立）。" },
+      { "q": "Que recommandent les experts ?", "options": ["Arrêter le télétravail", "Trouver un équilibre avec des horaires fixes", "Travailler la nuit", "Ne jamais aller au bureau"], "answer": 1, "explain_zh": "« il faut trouver un équilibre … horaires fixes »（找到平衡，固定作息）。" }
+    ]
+  }
+]

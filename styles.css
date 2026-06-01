@@ -1,0 +1,146 @@
+:root {
+  --blue: #1f3a93;
+  --blue-light: #3b5bdb;
+  --red: #e23636;
+  --green: #2f9e44;
+  --bg: #f4f6fb;
+  --card: #ffffff;
+  --text: #1d2433;
+  --muted: #6b7280;
+  --border: #e3e8f0;
+  --radius: 16px;
+  --shadow: 0 4px 18px rgba(31, 58, 147, 0.08);
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+html, body {
+  margin: 0; padding: 0; height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg); color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+body { display: flex; flex-direction: column; }
+
+#app-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: calc(env(safe-area-inset-top) + 12px) 18px 12px;
+  background: var(--blue); color: #fff; flex: 0 0 auto;
+}
+.brand { font-weight: 700; font-size: 18px; display: flex; gap: 6px; align-items: center; }
+.stats { display: flex; gap: 8px; }
+.pill {
+  background: rgba(255,255,255,0.18); padding: 5px 10px; border-radius: 999px;
+  font-size: 13px; font-weight: 600; white-space: nowrap;
+}
+
+#view {
+  flex: 1 1 auto; overflow-y: auto;
+  padding: 18px 18px 8px; -webkit-overflow-scrolling: touch;
+}
+
+#app-footer {
+  flex: 0 0 auto; padding: 10px 18px calc(env(safe-area-inset-bottom) + 14px);
+  background: var(--card); border-top: 1px solid var(--border);
+}
+#progress-wrap {
+  height: 6px; background: var(--border); border-radius: 999px; margin-bottom: 12px; overflow: hidden;
+}
+#progress-bar { height: 100%; width: 0%; background: var(--blue-light); transition: width .35s ease; }
+
+#action-bar { display: flex; gap: 10px; }
+
+button {
+  font: inherit; cursor: pointer; border: none; border-radius: 12px;
+  padding: 14px 16px; font-weight: 600; transition: transform .05s ease, background .15s ease;
+}
+button:active { transform: scale(0.97); }
+
+.btn-primary { background: var(--blue); color: #fff; flex: 1; }
+.btn-primary:hover { background: var(--blue-light); }
+.btn-secondary { background: var(--border); color: var(--text); flex: 1; }
+.btn-ghost { background: transparent; color: var(--blue); border: 1px solid var(--border); }
+
+/* Cards & sections */
+.card {
+  background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 22px; margin-bottom: 16px;
+}
+.section-banner { text-align: center; padding: 40px 16px; }
+.section-banner .icon { font-size: 56px; }
+.section-banner h2 { margin: 14px 0 6px; font-size: 24px; }
+.section-banner p { color: var(--muted); margin: 0; }
+
+/* Home */
+.home-hero { text-align: center; padding: 12px 0 8px; }
+.home-hero h1 { font-size: 24px; margin: 4px 0; }
+.home-hero p { color: var(--muted); margin: 4px 0 0; }
+.plan-list { list-style: none; padding: 0; margin: 0; }
+.plan-list li {
+  display: flex; align-items: center; gap: 14px; padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+.plan-list li:last-child { border-bottom: none; }
+.plan-list .pico { font-size: 26px; width: 34px; text-align: center; }
+.plan-list .ptxt { flex: 1; }
+.plan-list .ptxt b { display: block; font-size: 15px; }
+.plan-list .ptxt small { color: var(--muted); }
+.plan-list .pcount { color: var(--blue); font-weight: 700; font-size: 14px; }
+
+/* Flashcard */
+.flash { text-align: center; min-height: 220px; display: flex; flex-direction: column; justify-content: center; }
+.flash .pos { color: var(--muted); font-size: 14px; }
+.flash .word { font-size: 34px; font-weight: 700; margin: 8px 0; color: var(--blue); }
+.flash .zh { font-size: 24px; margin: 10px 0; }
+.flash .ex { font-size: 17px; margin-top: 14px; }
+.flash .ex .ex-zh { color: var(--muted); font-size: 15px; display: block; margin-top: 4px; }
+.audio-btn {
+  background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+  width: 52px; height: 52px; font-size: 22px; margin: 6px auto 0; padding: 0;
+}
+.tag { display: inline-block; font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 999px; }
+.tag-new { background: #fff3bf; color: #b08900; }
+.tag-review { background: #d3f9d8; color: var(--green); }
+
+/* Grading buttons */
+.grade-row { display: flex; gap: 8px; }
+.grade-row button { flex: 1; font-size: 14px; }
+.grade-again { background: #ffe3e3; color: var(--red); }
+.grade-good { background: #d0ebff; color: var(--blue); }
+.grade-easy { background: #d3f9d8; color: var(--green); }
+
+/* Grammar / reading text */
+.lesson-title { font-size: 20px; margin: 0 0 4px; }
+.lesson-level { font-size: 12px; color: var(--muted); }
+.explain { white-space: pre-wrap; line-height: 1.6; margin-top: 12px; }
+.examples { margin-top: 14px; }
+.examples .ex-item { padding: 10px 0; border-top: 1px dashed var(--border); }
+.examples .ex-fr { font-weight: 600; }
+.examples .ex-zh { color: var(--muted); font-size: 14px; }
+.reading-text { line-height: 1.8; font-size: 17px; }
+
+/* MCQ */
+.mcq-ctx { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.mcq-q { font-size: 19px; font-weight: 600; margin: 6px 0 16px; line-height: 1.4; }
+.opt {
+  display: block; width: 100%; text-align: left; background: var(--card);
+  border: 2px solid var(--border); margin-bottom: 10px; color: var(--text);
+}
+.opt.correct { border-color: var(--green); background: #ebfbee; }
+.opt.wrong { border-color: var(--red); background: #fff0f0; }
+.opt.dim { opacity: .55; }
+.feedback { margin-top: 8px; padding: 12px 14px; border-radius: 12px; font-size: 14px; line-height: 1.5; }
+.feedback.ok { background: #ebfbee; color: var(--green); }
+.feedback.no { background: #fff0f0; color: var(--red); }
+
+/* Summary */
+.summary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
+.summary-grid .stat { background: var(--card); border-radius: 14px; padding: 16px; text-align: center; box-shadow: var(--shadow); }
+.summary-grid .stat .num { font-size: 28px; font-weight: 800; color: var(--blue); }
+.summary-grid .stat .lbl { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.done-emoji { font-size: 64px; text-align: center; }
+
+.hint { color: var(--muted); font-size: 13px; text-align: center; margin-top: 10px; }
+[hidden] { display: none !important; }
