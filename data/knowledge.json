@@ -1,0 +1,496 @@
+[
+  {
+    "id": "kb-tenses",
+    "title": "时态地图",
+    "subtitle": "passé composé, imparfait, plus-que-parfait, futur, conditionnel",
+    "level": "A2-B2",
+    "source_pages": "2, 4-6, 67-72, 78-79",
+    "summary_zh": "先用一张地图判断动作视角：passé composé 讲已经完成、推动故事的动作；imparfait 讲背景、状态、习惯和描述；plus-que-parfait 讲“过去的过去”；futur simple 更正式；conditionnel 用来表达礼貌、建议、假设和不确定。",
+    "rules": [
+      {
+        "label": "passé composé",
+        "text_zh": "构成：avoir/être 的现在时 + participe passé。多数动词用 avoir；移动、状态变化、代词式动词常用 être，并和主语性数配合。",
+        "examples": [
+          { "fr": "J'ai regardé un film hier soir.", "zh": "我昨晚看了一部电影。" },
+          { "fr": "Elle est arrivée en retard.", "zh": "她迟到了。" }
+        ]
+      },
+      {
+        "label": "imparfait",
+        "text_zh": "构成：nous 现在时去掉 -ons + -ais, -ais, -ait, -ions, -iez, -aient。用于过去的背景、习惯、状态、描述。",
+        "examples": [
+          { "fr": "Quand j'étais petite, je lisais beaucoup.", "zh": "我小时候读很多书。" },
+          { "fr": "Il faisait beau et les oiseaux chantaient.", "zh": "天气很好，鸟儿在唱歌。" }
+        ]
+      },
+      {
+        "label": "passé composé vs imparfait",
+        "text_zh": "imparfait 像舞台背景，passé composé 像突然发生、推动情节的动作。",
+        "examples": [
+          { "fr": "Je dormais quand le téléphone a sonné.", "zh": "我正在睡觉，这时电话响了。" }
+        ]
+      },
+      {
+        "label": "futur simple",
+        "text_zh": "常用不规则词根：avoir → aur-, être → ser-, aller → ir-, venir → viendr-, faire → fer-, voir → verr-, envoyer → enverr-, vouloir → voudr-, pouvoir → pourr-, devoir → devr-, falloir → faudr-, recevoir → recevr-.",
+        "examples": [
+          { "fr": "Je partirai demain.", "zh": "我明天会出发。" }
+        ]
+      },
+      {
+        "label": "conditionnel présent",
+        "text_zh": "词根通常同 futur simple，词尾同 imparfait：-ais, -ais, -ait, -ions, -iez, -aient。常用于礼貌、建议和假设。",
+        "examples": [
+          { "fr": "Je voudrais un café.", "zh": "我想要一杯咖啡。" },
+          { "fr": "Si j'étais riche, je voyagerais.", "zh": "如果我有钱，我会旅行。" }
+        ]
+      }
+    ],
+    "review": [
+      { "q": "什么时候用 imparfait？", "a": "背景、习惯、描述、持续状态。" },
+      { "q": "conditionnel 的词根和词尾分别像什么？", "a": "词根像 futur simple，词尾像 imparfait。" }
+    ]
+  },
+  {
+    "id": "kb-subjonctif",
+    "title": "虚拟式 subjonctif",
+    "subtitle": "il faut que, bien que, pour que, avant que",
+    "level": "B1-B2",
+    "source_pages": "6, 68, 75-78",
+    "summary_zh": "subjonctif 用来表达主观、必要、情绪、愿望、目的、让步或不确定。常见触发词包括 il faut que, bien que, quoique, pour que, avant que, je veux que, je propose que, s'attendre à ce que。",
+    "rules": [
+      {
+        "label": "基本构成",
+        "text_zh": "多数动词取 ils/elles 现在时，去掉 -ent，加 -e, -es, -e, -ions, -iez, -ent。",
+        "examples": [
+          { "fr": "Il faut que tu partes tôt.", "zh": "你必须早点走。" },
+          { "fr": "Je veux que vous compreniez.", "zh": "我希望你们理解。" }
+        ]
+      },
+      {
+        "label": "常用不规则",
+        "text_zh": "être → que je sois, que tu sois, qu'il soit；avoir → que j'aie；savoir → que je sache；pouvoir → que je puisse。",
+        "examples": [
+          { "fr": "Bien qu'il soit riche, il vit simplement.", "zh": "虽然他很富有，却生活简单。" },
+          { "fr": "Pour que nous puissions réussir, il faut travailler.", "zh": "为了让我们能成功，必须努力。" }
+        ]
+      }
+    ],
+    "review": [
+      { "q": "bien que 后面用什么语式？", "a": "subjonctif。" },
+      { "q": "Il faut que tu ___ tôt: pars or partes?", "a": "partes。" }
+    ]
+  },
+  {
+    "id": "kb-pronouns",
+    "title": "代词系统",
+    "subtitle": "COD, COI, y, en, 双代词顺序",
+    "level": "A2-B2",
+    "source_pages": "17, 30, 47-49, 59-66",
+    "summary_zh": "先判断动词后面接直接宾语还是 à/de 介词结构。直接宾语用 le/la/les，间接人称宾语用 lui/leur；à + 地点或事情多用 y；de + 数量、来源、对象多用 en 或 dont。",
+    "rules": [
+      {
+        "label": "COD 直接宾语",
+        "text_zh": "le/la/les 放在变位动词前；复合过去时里，如果 COD 前置，过去分词要配合。",
+        "examples": [
+          { "fr": "Tu as acheté l'appartement ? Oui, je l'ai acheté.", "zh": "你买了那套公寓吗？是的，我买了。" },
+          { "fr": "Les pommes ? Elle les a mangées.", "zh": "那些苹果？她吃了。" }
+        ]
+      },
+      {
+        "label": "COI 间接宾语",
+        "text_zh": "à + 人通常变 lui/leur；à + 地点或抽象事情常变 y。",
+        "examples": [
+          { "fr": "Je téléphone à Luna. → Je lui téléphone.", "zh": "我给 Luna 打电话。" },
+          { "fr": "Je pense à ce projet. → J'y pense.", "zh": "我在想这个项目。" }
+        ]
+      },
+      {
+        "label": "en",
+        "text_zh": "替代 de + 名词、数量表达、来源；数量词常保留在句末。",
+        "examples": [
+          { "fr": "Tu veux du café ? Oui, j'en veux bien.", "zh": "你想要咖啡吗？是的，我想要。" },
+          { "fr": "Il a besoin d'argent. → Il en a besoin.", "zh": "他需要钱。" }
+        ]
+      },
+      {
+        "label": "双代词顺序",
+        "text_zh": "常用顺序：me/te/se/nous/vous → le/la/les → lui/leur → y → en。否定时 ne 放在代词前，pas 放在动词后。",
+        "examples": [
+          { "fr": "Je te la pose.", "zh": "我问你这个问题。" },
+          { "fr": "Je ne te la poserai pas.", "zh": "我不会问你这个问题。" }
+        ]
+      }
+    ],
+    "review": [
+      { "q": "penser à ce problème 可以变成什么？", "a": "y penser。" },
+      { "q": "avoir besoin de courage 可以用哪个代词？", "a": "en: Il en a besoin." }
+    ]
+  },
+  {
+    "id": "kb-relatives",
+    "title": "关系代词",
+    "subtitle": "qui, que, où, dont, lequel",
+    "level": "B1-B2",
+    "source_pages": "34-35, 60-65",
+    "summary_zh": "选择关系代词时，不看中文的“的”，要看它在从句里承担什么角色：主语、直接宾语、地点/时间，还是 de 结构。",
+    "rules": [
+      {
+        "label": "qui / que / où / dont",
+        "text_zh": "qui 作从句主语；que 作直接宾语；où 表地点或时间；dont 替代 de + 名词/动词/形容词结构。",
+        "examples": [
+          { "fr": "C'est une histoire que j'aime beaucoup.", "zh": "这是一个我很喜欢的故事。" },
+          { "fr": "C'est le sujet dont nous parlons.", "zh": "这就是我们谈论的话题。" },
+          { "fr": "La ville où je suis née est petite.", "zh": "我出生的城市很小。" }
+        ]
+      },
+      {
+        "label": "lequel 系列",
+        "text_zh": "介词后可用 lequel/laquelle/lesquels/lesquelles；à + lequel → auquel，de + lequel → duquel，并按性数变化。",
+        "examples": [
+          { "fr": "La raison pour laquelle j'apprends le français est personnelle.", "zh": "我学习法语的原因是个人的。" }
+        ]
+      }
+    ],
+    "review": [
+      { "q": "parler de qch 对应哪个关系代词？", "a": "dont。" },
+      { "q": "地点或时间通常用哪个？", "a": "où。" }
+    ]
+  },
+  {
+    "id": "kb-negation",
+    "title": "否定表达",
+    "subtitle": "ne...pas, jamais, plus, rien, personne, aucun, nulle part",
+    "level": "A2-B1",
+    "source_pages": "17, 51, 69",
+    "summary_zh": "正式写作里不要漏掉 ne。复合时态中，pas/jamais/plus/rien 常放在助动词后；personne 和 nulle part 位置更灵活，注意表达重点。",
+    "rules": [
+      {
+        "label": "基础否定",
+        "text_zh": "sujet + ne/n' + verbe + pas。口语会省 ne，但考试写作要保留。",
+        "examples": [
+          { "fr": "Je ne comprends pas.", "zh": "我不明白。" },
+          { "fr": "Ce n'est pas grave.", "zh": "这没关系。" }
+        ]
+      },
+      {
+        "label": "扩展否定",
+        "text_zh": "déjà → ne...jamais；encore → ne...plus / ne...pas encore；quelque chose → ne...rien；quelqu'un → ne...personne；partout → ne...nulle part。",
+        "examples": [
+          { "fr": "Je n'ai rien mangé.", "zh": "我什么都没吃。" },
+          { "fr": "Personne n'est venu.", "zh": "没有人来。" },
+          { "fr": "Je ne l'ai trouvé nulle part.", "zh": "我哪儿都没找到它。" }
+        ]
+      },
+      {
+        "label": "de 的变化",
+        "text_zh": "否定中，不定冠词和部分冠词常变 de/d'：Je n'ai pas de voiture; Il n'y a pas d'eau.",
+        "examples": [
+          { "fr": "Il n'y a pas de travaux.", "zh": "没有工程/施工。" }
+        ]
+      }
+    ],
+    "review": [
+      { "q": "Je vois quelqu'un 的否定？", "a": "Je ne vois personne." },
+      { "q": "Il y a des légumes 的否定？", "a": "Il n'y a pas de légumes." }
+    ]
+  },
+  {
+    "id": "kb-adjectives",
+    "title": "形容词位置与配合",
+    "subtitle": "BAGS, 颜色/国籍, ancien/cher/propre 等变义",
+    "level": "A2-B1",
+    "source_pages": "11, 20, 26, 46, 49",
+    "summary_zh": "多数形容词放名词后；短小常用形容词常放名词前；有些形容词前后位置不同，意思会变。形容词还要和名词性数配合。",
+    "rules": [
+      {
+        "label": "通常放后面",
+        "text_zh": "颜色、国籍、形状和多数普通形容词放在名词后。",
+        "examples": [
+          { "fr": "une robe noire", "zh": "一条黑裙子" },
+          { "fr": "un paysage naturel", "zh": "自然风景" }
+        ]
+      },
+      {
+        "label": "常放前面的短形容词",
+        "text_zh": "beau, joli, bon, mauvais, petit, grand, gros, jeune, vieux, nouveau 常放名词前。",
+        "examples": [
+          { "fr": "un vieux film", "zh": "一部老电影" },
+          { "fr": "une bonne idée", "zh": "一个好主意" }
+        ]
+      },
+      {
+        "label": "配合",
+        "text_zh": "阴性常加 -e，复数常加 -s；如信息 informations 是阴性复数，partagées/fiables 都要配合。",
+        "examples": [
+          { "fr": "des informations fiables", "zh": "可靠的信息" },
+          { "fr": "Ils sont incapables de mentir.", "zh": "他们不会说谎。" }
+        ]
+      }
+    ],
+    "review": [
+      { "q": "颜色形容词通常放哪里？", "a": "名词后。" },
+      { "q": "des informations ___: fiable or fiables?", "a": "fiables。" }
+    ]
+  },
+  {
+    "id": "kb-comparison",
+    "title": "比较级与最高级",
+    "subtitle": "plus/moins/aussi, meilleur/mieux, autant de",
+    "level": "A2-B1",
+    "source_pages": "20, 54",
+    "summary_zh": "比较时分清形容词/副词/数量。bon 的比较级是 meilleur，bien 的比较级是 mieux；数量比较用 plus de / moins de / autant de。",
+    "rules": [
+      {
+        "label": "形容词/副词比较",
+        "text_zh": "plus/moins/aussi + adjectif/adverbe + que。",
+        "examples": [
+          { "fr": "C'est plus cher que l'autre.", "zh": "这比另一个更贵。" },
+          { "fr": "Elle parle aussi bien que toi.", "zh": "她说得和你一样好。" }
+        ]
+      },
+      {
+        "label": "不规则比较",
+        "text_zh": "bon → meilleur；bien → mieux；mauvais 可用 pire。",
+        "examples": [
+          { "fr": "Ce restaurant est meilleur.", "zh": "这家餐厅更好。" },
+          { "fr": "Je comprends mieux maintenant.", "zh": "我现在理解得更好了。" }
+        ]
+      },
+      {
+        "label": "数量比较",
+        "text_zh": "plus de / moins de / autant de + nom + que。",
+        "examples": [
+          { "fr": "Il y a moins de bruit qu'avant.", "zh": "噪音比以前少。" }
+        ]
+      }
+    ],
+    "review": [
+      { "q": "bien 的比较级是什么？", "a": "mieux。" },
+      { "q": "数量“一样多”怎么说？", "a": "autant de ... que。" }
+    ]
+  },
+  {
+    "id": "kb-questions",
+    "title": "提问与倒装",
+    "subtitle": "est-ce que, 疑问词位置, 日常问题",
+    "level": "A1-B1",
+    "source_pages": "7, 28, 43, 49",
+    "summary_zh": "法语提问可以用语调、est-ce que 或倒装。正式一点可用 est-ce que / 倒装；口语中疑问词也可放句末。用倒装时，疑问词一般不能放句末。",
+    "rules": [
+      {
+        "label": "三种问法",
+        "text_zh": "语调：Vous allez où ? est-ce que：Où est-ce que vous allez ? 倒装：Où allez-vous ?",
+        "examples": [
+          { "fr": "Vous voyagez avec qui ?", "zh": "你和谁旅行？" },
+          { "fr": "Avec qui est-ce que vous voyagez ?", "zh": "你和谁旅行？" },
+          { "fr": "Quand votre train part-il ?", "zh": "你的火车什么时候出发？" }
+        ]
+      },
+      {
+        "label": "常用问题",
+        "text_zh": "自我介绍、交通、生活、职业和意见表达都可以整理成固定问句来背。",
+        "examples": [
+          { "fr": "Vous faites quoi dans la vie ?", "zh": "你是做什么工作的？" },
+          { "fr": "Comment trouvez-vous cette gare ?", "zh": "你觉得这个车站怎么样？" },
+          { "fr": "Que pensez-vous de ce sujet ?", "zh": "你怎么看这个话题？" }
+        ]
+      }
+    ],
+    "review": [
+      { "q": "“你从哪里来？”正式一点怎么问？", "a": "D'où est-ce que vous venez ? / D'où venez-vous ?" },
+      { "q": "倒装时 quoi 可以放句末吗？", "a": "通常不要；倒装要把疑问词放前面。" }
+    ]
+  },
+  {
+    "id": "kb-connectors",
+    "title": "观点、原因与连接词",
+    "subtitle": "opinion, cause, conséquence, concession, sequence",
+    "level": "B1-B2",
+    "source_pages": "25, 41, 52-54, 79, 81-82",
+    "summary_zh": "写作和口语要准备成套连接词：表达观点、补充、原因、结果、让步、顺序和对比。B2 写作中，连接词能让句子从“会说”变成“有结构”。",
+    "rules": [
+      {
+        "label": "表达观点",
+        "text_zh": "Je pense que, je trouve que, je crois que, à mon avis, selon moi, d'après moi, de mon point de vue, j'estime que。",
+        "examples": [
+          { "fr": "À mon avis, il faut vérifier l'information.", "zh": "在我看来，应该核实信息。" }
+        ]
+      },
+      {
+        "label": "原因",
+        "text_zh": "parce que, car, comme, puisque, en raison de, grâce à, à cause de, à force de。",
+        "examples": [
+          { "fr": "Grâce à ton aide, j'ai réussi.", "zh": "多亏你的帮助，我成功了。" },
+          { "fr": "À cause de la pluie, le match est annulé.", "zh": "因为下雨，比赛取消。" }
+        ]
+      },
+      {
+        "label": "结果与顺序",
+        "text_zh": "donc, ainsi, par conséquent, en conséquence；d'abord, ensuite, puis, après, finalement。",
+        "examples": [
+          { "fr": "Il pleut ; par conséquent, nous restons à la maison.", "zh": "下雨了，因此我们待在家。" }
+        ]
+      },
+      {
+        "label": "让步/对比",
+        "text_zh": "pourtant, néanmoins, en revanche, tandis que, malgré + nom, bien que + subjonctif。",
+        "examples": [
+          { "fr": "Bien qu'il soit tard, je continue.", "zh": "虽然很晚了，我继续。" }
+        ]
+      }
+    ],
+    "review": [
+      { "q": "正面原因“多亏”怎么说？", "a": "grâce à。" },
+      { "q": "结果连接词列三个。", "a": "donc, ainsi, par conséquent / en conséquence。" }
+    ]
+  },
+  {
+    "id": "kb-daily-vocab",
+    "title": "生活主题词库",
+    "subtitle": "工作、家庭、住房、交通、健康、饮食、科技",
+    "level": "A1-B2",
+    "source_pages": "8-24, 27-33, 36-41, 46, 52-56, 58, 81",
+    "summary_zh": "你的笔记里大量内容是生活场景词汇。把它们按主题记，比按日期记更容易复用到口语、写作和听力里。",
+    "rules": [
+      {
+        "label": "工作与学习",
+        "text_zh": "un travail / un emploi / un poste, un entretien, un stage, travailler à temps plein/partiel, faire des heures supplémentaires, un salarié, un employeur, un patron, réussir/rater un examen。",
+        "examples": [
+          { "fr": "Je travaille à temps partiel.", "zh": "我做兼职。" },
+          { "fr": "Elle a réussi l'examen.", "zh": "她通过了考试。" }
+        ]
+      },
+      {
+        "label": "身体与健康",
+        "text_zh": "avoir mal à, avoir la grippe, avoir la toux, manquer de sommeil, avoir du mal à s'endormir, un trouble du sommeil, prendre soin de soi。",
+        "examples": [
+          { "fr": "J'ai mal aux dents.", "zh": "我牙疼。" },
+          { "fr": "J'ai eu du mal à m'endormir.", "zh": "我很难入睡。" }
+        ]
+      },
+      {
+        "label": "住房",
+        "text_zh": "le sous-sol, le grenier, le rez-de-chaussée, le premier étage, le dernier étage, l'escalier, l'ascenseur, ouvrir/fermer la porte, allumer/éteindre le chauffage。",
+        "examples": [
+          { "fr": "L'appartement est au premier étage.", "zh": "公寓在二楼（法式一层）。" }
+        ]
+      },
+      {
+        "label": "交通与旅行",
+        "text_zh": "en provenance de, à destination de, aller simple, aller-retour, rater le train, un jour férié, les paysages naturels, faire du covoiturage。",
+        "examples": [
+          { "fr": "J'ai raté le train.", "zh": "我没赶上火车。" }
+        ]
+      },
+      {
+        "label": "数字、时间、地点",
+        "text_zh": "au moins, au plus, au maximum, au minimum, tous les trois jours, chaque jeudi, le nord/sud/est/ouest, les jours ouvrables/fériés。",
+        "examples": [
+          { "fr": "Je fais du sport tous les trois jours.", "zh": "我每三天运动一次。" }
+        ]
+      },
+      {
+        "label": "科技与社会",
+        "text_zh": "la marque, poster, chatter, liker, l'IA, la politique de confidentialité, les conditions générales d'utilisation, consulter une information, partager avec quelqu'un。",
+        "examples": [
+          { "fr": "Il faut consulter une source fiable.", "zh": "应该查阅可靠来源。" }
+        ]
+      }
+    ],
+    "review": [
+      { "q": "“兼职工作”怎么说？", "a": "un travail à temps partiel。" },
+      { "q": "“没赶上火车”怎么说？", "a": "rater le train。" }
+    ]
+  },
+  {
+    "id": "kb-verb-patterns",
+    "title": "动词搭配",
+    "subtitle": "à/de 结构、代词式动词、faire/se faire",
+    "level": "A2-B2",
+    "source_pages": "10, 13-17, 22-23, 30, 48, 52, 56, 66",
+    "summary_zh": "很多错误不是单词不会，而是不知道动词后面跟 à、de、直接宾语还是自反结构。把动词搭配当作整体背。",
+    "rules": [
+      {
+        "label": "de 结构",
+        "text_zh": "avoir besoin de, avoir envie de, avoir peur de, dépendre de, manquer de, prendre soin de, se moquer de, s'occuper de, se servir de, se souvenir de, rêver de, venir de。",
+        "examples": [
+          { "fr": "Prends bien soin de toi.", "zh": "照顾好自己。" },
+          { "fr": "Tu te moques de moi ?", "zh": "你在嘲笑我吗？" }
+        ]
+      },
+      {
+        "label": "à 结构",
+        "text_zh": "ressembler à, permettre à qn de faire qch, s'intéresser à, participer à, répondre à, téléphoner à, penser à。",
+        "examples": [
+          { "fr": "Je m'intéresse à la peinture.", "zh": "我对绘画感兴趣。" },
+          { "fr": "Ça me fait plaisir.", "zh": "这让我高兴。" }
+        ]
+      },
+      {
+        "label": "faire / se faire + infinitif",
+        "text_zh": "faire faire = 让别人做；se faire + infinitif = 让别人给自己做，或遭遇某事。",
+        "examples": [
+          { "fr": "Je me suis fait couper les cheveux.", "zh": "我去剪了头发。" },
+          { "fr": "Il faut éteindre les lumières quand on quitte la maison.", "zh": "离开家时要关灯。" }
+        ]
+      },
+      {
+        "label": "代词式动词",
+        "text_zh": "se lever, se coucher, s'endormir, se sentir, s'entendre avec, s'inscrire, se blesser 等。复合过去时通常用 être。",
+        "examples": [
+          { "fr": "Je me suis levée tôt.", "zh": "我早起了。" },
+          { "fr": "Elle ne se sent pas bien.", "zh": "她感觉不舒服。" }
+        ]
+      }
+    ],
+    "review": [
+      { "q": "prendre soin 后面接哪个介词？", "a": "de。" },
+      { "q": "Je me suis fait couper les cheveux 是什么意思？", "a": "我去剪了头发/让别人给我剪了头发。" }
+    ]
+  },
+  {
+    "id": "kb-writing",
+    "title": "写作与表达模板",
+    "subtitle": "邮件、叙事、论证、间接引语",
+    "level": "B1-B2",
+    "source_pages": "33-34, 41-43, 52-54, 73-74, 79, 81-82",
+    "summary_zh": "你的笔记里已经有邮件结尾、叙事、论证和间接引语线索。写作时先套结构：开头交代背景，中间按连接词推进，结尾表达期待或总结观点。",
+    "rules": [
+      {
+        "label": "邮件表达",
+        "text_zh": "感谢邀请、表达很高兴认识大家、期待下次见面、礼貌结尾。",
+        "examples": [
+          { "fr": "Je vous remercie pour votre invitation.", "zh": "感谢您的邀请。" },
+          { "fr": "Au plaisir de vous retrouver lors d'une prochaine soirée.", "zh": "期待下次聚会再见。" },
+          { "fr": "Cordialement,", "zh": "此致（正式邮件结尾）。" }
+        ]
+      },
+      {
+        "label": "叙事结构",
+        "text_zh": "用 imparfait 铺背景，用 passé composé 讲事件，用 plus-que-parfait 说明更早发生的事。",
+        "examples": [
+          { "fr": "J'étais stressée parce que j'avais oublié mon passeport.", "zh": "我很紧张，因为我忘带了护照。" }
+        ]
+      },
+      {
+        "label": "间接引语",
+        "text_zh": "直接引语转间接引语时，代词、时间词和语气要调整：aujourd'hui → ce jour-là, hier → la veille, demain → le lendemain, prochain → suivant。",
+        "examples": [
+          { "fr": "Il a dit de partir.", "zh": "他说要离开。" }
+        ]
+      },
+      {
+        "label": "论证框架",
+        "text_zh": "先提出观点，再给原因、例子、反方或让步，最后总结。常用：d'abord, ensuite, cependant, par conséquent, en conclusion。",
+        "examples": [
+          { "fr": "D'abord, cette solution est plus durable. Ensuite, elle coûte moins cher.", "zh": "首先，这个方案更可持续。其次，它成本更低。" }
+        ]
+      }
+    ],
+    "review": [
+      { "q": "hier 在间接引语中常变成什么？", "a": "la veille。" },
+      { "q": "正式邮件结尾可以用什么？", "a": "Cordialement。" }
+    ]
+  }
+]

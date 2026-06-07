@@ -55,9 +55,9 @@ function saveState() {
 }
 
 /* ---------- data ---------- */
-let DATA = { vocab: [], grammar: [], conjugation: [], reading: [], listening: [] };
+let DATA = { vocab: [], grammar: [], conjugation: [], reading: [], listening: [], knowledge: [] };
 async function loadData() {
-  const files = ["vocab", "grammar", "conjugation", "reading", "listening"];
+  const files = ["vocab", "grammar", "conjugation", "reading", "listening", "knowledge"];
   const results = await Promise.all(
     files.map((f) => fetch(`data/${f}.json`).then((r) => r.json()))
   );
@@ -252,13 +252,99 @@ function renderHome() {
           <li><span class="pico">🔤</span><span class="ptxt"><b>动词变位</b><small>${DATA.conjugation.length ? escapeHtml(DATA.conjugation[state.conjugationIndex % DATA.conjugation.length].tense_zh) : "—"}</small></span><span class="pcount">${conjCount}</span></li>
           <li><span class="pico">📖</span><span class="ptxt"><b>阅读理解</b><small>短文 + 问题</small></span><span class="pcount">1</span></li>
           <li><span class="pico">🎧</span><span class="ptxt"><b>听力</b><small>法语朗读 + 问题</small></span><span class="pcount">1</span></li>
+          <li><span class="pico">🗂️</span><span class="ptxt"><b>知识库</b><small>从你的法语笔记整理出的 ${DATA.knowledge.length} 个主题</small></span><span class="pcount">${DATA.knowledge.length}</span></li>
         </ul>
       </div>
       <p class="hint">连续学习 ${state.streak} 天 · 累计 ${state.totalSessions} 次</p>
     </div>
   `);
   setView(node);
-  setActions([btn("开始今日学习 ▶", "btn-primary", startSession)]);
+  setActions([
+    btn("开始今日学习 ▶", "btn-primary", startSession),
+    btn("知识库", "btn-secondary", renderKnowledgeBase)
+  ]);
+}
+
+function renderKnowledgeBase() {
+  session = null;
+  clearInterval(timerInterval);
+  $("#timer").textContent = "⏱️ 0:00";
+  $("#progress-wrap").hidden = true;
+
+  const topics = DATA.knowledge.map((topic) => `
+    <button class="topic-card" data-id="${escapeHtml(topic.id)}">
+      <span>
+        <b>${escapeHtml(topic.title)}</b>
+        <small>${escapeHtml(topic.subtitle)}</small>
+      </span>
+      <em>${escapeHtml(topic.level)}</em>
+    </button>
+  `).join("");
+
+  const node = el(`
+    <div>
+      <div class="kb-head">
+        <div class="lesson-level">从《法语笔记.pdf》整理</div>
+        <h1>知识库</h1>
+        <p>按主题复习你学过的语法、表达和场景词汇。</p>
+      </div>
+      <div class="topic-list">${topics}</div>
+    </div>
+  `);
+  setView(node);
+  node.querySelectorAll(".topic-card").forEach((card) => {
+    card.addEventListener("click", () => renderKnowledgeTopic(card.dataset.id));
+  });
+  setActions([btn("回到首页", "btn-secondary", renderHome)]);
+}
+
+function renderKnowledgeTopic(id) {
+  const topic = DATA.knowledge.find((item) => item.id === id);
+  if (!topic) return renderKnowledgeBase();
+
+  const rulesHtml = (topic.rules || []).map((rule) => {
+    const examples = (rule.examples || []).map((ex) => `
+      <div class="kb-example" role="button" tabindex="0" data-speak="${escapeHtml(ex.fr)}">
+        <div class="ex-fr">${escapeHtml(ex.fr)}</div>
+        <div class="ex-zh">${escapeHtml(ex.zh)}</div>
+      </div>
+    `).join("");
+    return `
+      <section class="kb-rule">
+        <h3>${escapeHtml(rule.label)}</h3>
+        <p>${escapeHtml(rule.text_zh)}</p>
+        ${examples ? `<div class="kb-examples">${examples}</div>` : ""}
+      </section>
+    `;
+  }).join("");
+
+  const reviewHtml = (topic.review || []).map((item) => `
+    <details class="review-card">
+      <summary>${escapeHtml(item.q)}</summary>
+      <p>${escapeHtml(item.a)}</p>
+    </details>
+  `).join("");
+
+  const node = el(`
+    <article class="card kb-detail">
+      <div class="lesson-level">${escapeHtml(topic.level)} · PDF pages ${escapeHtml(topic.source_pages || "notes")}</div>
+      <h2 class="lesson-title">${escapeHtml(topic.title)}</h2>
+      <p class="kb-subtitle">${escapeHtml(topic.subtitle)}</p>
+      <div class="explain">${escapeHtml(topic.summary_zh)}</div>
+      ${rulesHtml}
+      ${reviewHtml ? `<h3 class="kb-review-title">快速自测</h3><div class="review-list">${reviewHtml}</div>` : ""}
+    </article>
+  `);
+  setView(node);
+  node.querySelectorAll(".kb-example").forEach((example) => {
+    const play = () => speak(example.dataset.speak);
+    example.addEventListener("click", play);
+    example.addEventListener("keydown", (e) => { if (e.key === "Enter") play(); });
+  });
+  setActions([
+    btn("返回知识库", "btn-secondary", renderKnowledgeBase),
+    btn("回到首页", "btn-secondary", renderHome)
+  ]);
 }
 
 function startSession() {

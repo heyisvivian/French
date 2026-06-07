@@ -37,6 +37,7 @@ A free, installable web app (PWA) to train daily for the **DELF/B2** French exam
 - **新高频词**：每天 8 个，带例句 + 🔊 法语发音（浏览器自带 TTS，免费）。
 - **语法**：每天 1 个语法点，中文讲解 + 即时判分的小练习。
 - **阅读 / 听力**：短文 + 理解题；听力用法语朗读，可慢速、可看原文。
+- **知识库**：把 `法语笔记.pdf` 里的内容整理成主题笔记，覆盖时态、虚拟式、代词、关系代词、否定、形容词、比较、提问、连接词、生活词汇、动词搭配和写作模板。
 - **连续打卡 🔥 + 进度统计**。
 
 ## 🗂️ 内容怎么扩充
@@ -45,6 +46,7 @@ A free, installable web app (PWA) to train daily for the **DELF/B2** French exam
 - `data/grammar.json` — 语法课 + 练习
 - `data/reading.json` — 阅读短文 + 题目
 - `data/listening.json` — 听力文本 + 题目
+- `data/knowledge.json` — 从个人法语笔记整理的主题知识库
 
 ## 🛠️ 本地预览（可选）
 ```bash

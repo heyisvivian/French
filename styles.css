@@ -149,4 +149,38 @@ button:active { transform: scale(0.97); }
 .done-emoji { font-size: 64px; text-align: center; }
 
 .hint { color: var(--muted); font-size: 13px; text-align: center; margin-top: 10px; }
+
+/* Knowledge base */
+.kb-head { padding: 6px 2px 14px; }
+.kb-head h1 { font-size: 26px; margin: 2px 0 4px; }
+.kb-head p { color: var(--muted); margin: 0; line-height: 1.5; }
+.topic-list { display: grid; gap: 10px; }
+.topic-card {
+  width: 100%; background: var(--card); color: var(--text); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px;
+  display: flex; align-items: center; justify-content: space-between; gap: 14px; text-align: left;
+}
+.topic-card b { display: block; font-size: 16px; margin-bottom: 3px; }
+.topic-card small { display: block; color: var(--muted); line-height: 1.35; font-weight: 500; }
+.topic-card em {
+  color: var(--blue); background: #edf2ff; border-radius: 999px; padding: 4px 8px;
+  font-style: normal; font-size: 12px; white-space: nowrap;
+}
+.kb-detail { padding-bottom: 10px; }
+.kb-subtitle { color: var(--muted); margin: 2px 0 12px; }
+.kb-rule { border-top: 1px solid var(--border); padding-top: 16px; margin-top: 16px; }
+.kb-rule h3, .kb-review-title { font-size: 16px; margin: 0 0 8px; }
+.kb-rule p { line-height: 1.65; margin: 0 0 12px; }
+.kb-examples { display: grid; gap: 8px; }
+.kb-example {
+  background: var(--bg); border: 1px solid var(--border); border-radius: 12px;
+  padding: 12px; cursor: pointer;
+}
+.kb-example:focus { outline: 2px solid var(--blue-light); outline-offset: 2px; }
+.review-list { display: grid; gap: 8px; }
+.review-card {
+  background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 12px;
+}
+.review-card summary { cursor: pointer; font-weight: 700; }
+.review-card p { margin: 10px 0 0; color: var(--muted); line-height: 1.5; }
 [hidden] { display: none !important; }
