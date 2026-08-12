@@ -1,5 +1,5 @@
 /* ============================================================
-   French B2 — daily trainer (Phase 1)
+   French grammar trainer
    Pure client-side. No backend. Progress lives in localStorage.
    ============================================================ */
 
@@ -7,7 +7,7 @@
 
 /* ---------- config ---------- */
 const CFG = {
-  newVocabPerDay: 12,        // new frequency words introduced each session
+  newVocabPerDay: 0,         // this app now focuses on grammar, not new vocab
   maxReviewPerDay: 40,       // cap due-cards so a session stays ~30 min
   conjugationSetsPerDay: 2,  // verb-conjugation drill sets per session
   targetMinutes: 30,
@@ -55,9 +55,9 @@ function saveState() {
 }
 
 /* ---------- data ---------- */
-let DATA = { vocab: [], grammar: [], conjugation: [], reading: [], listening: [], knowledge: [] };
+let DATA = { vocab: [], grammar: [], conjugation: [], reading: [], knowledge: [] };
 async function loadData() {
-  const files = ["vocab", "grammar", "conjugation", "reading", "listening", "knowledge"];
+  const files = ["vocab", "grammar", "conjugation", "reading", "knowledge"];
   const results = await Promise.all(
     files.map((f) => fetch(`data/${f}.json`).then((r) => r.json()))
   );
@@ -125,10 +125,9 @@ function buildSession() {
   // new vocab
   const newVocab = DATA.vocab.slice(state.vocabIndex, state.vocabIndex + CFG.newVocabPerDay);
 
-  // rotate the single-item blocks
+  // rotate the grammar-first blocks
   const grammar = DATA.grammar.length ? DATA.grammar[state.grammarIndex % DATA.grammar.length] : null;
   const reading = DATA.reading.length ? DATA.reading[state.readingIndex % DATA.reading.length] : null;
-  const listening = DATA.listening.length ? DATA.listening[state.listeningIndex % DATA.listening.length] : null;
 
   // conjugation drill sets (rotate through several per day)
   const conjN = Math.min(CFG.conjugationSetsPerDay, DATA.conjugation.length);
@@ -148,7 +147,7 @@ function buildSession() {
     newVocab.forEach((card) => steps.push({ kind: "flash", mode: "new", card }));
   }
   if (grammar) {
-    steps.push({ kind: "section", icon: "✍️", title: "语法 · Grammaire", sub: grammar.title });
+    steps.push({ kind: "section", icon: "✍️", title: "今日语法 · Grammaire", sub: grammar.title });
     steps.push({ kind: "grammar", lesson: grammar });
     (grammar.exercises || []).forEach((ex) =>
       steps.push({ kind: "mcq", ctx: "语法练习", q: ex.q, options: ex.options, answer: ex.answer, explain: ex.hint_zh })
@@ -161,17 +160,10 @@ function buildSession() {
     );
   }
   if (reading) {
-    steps.push({ kind: "section", icon: "📖", title: "阅读 · Lecture", sub: reading.title });
+    steps.push({ kind: "section", icon: "📖", title: "语法阅读 · Lecture grammaticale", sub: reading.title });
     steps.push({ kind: "reading", item: reading });
     (reading.questions || []).forEach((qq) =>
-      steps.push({ kind: "mcq", ctx: "阅读理解", q: qq.q, options: qq.options, answer: qq.answer, explain: qq.explain_zh })
-    );
-  }
-  if (listening) {
-    steps.push({ kind: "section", icon: "🎧", title: "听力 · Écoute", sub: listening.title });
-    steps.push({ kind: "listening", item: listening });
-    (listening.questions || []).forEach((qq) =>
-      steps.push({ kind: "mcq", ctx: "听力理解", q: qq.q, options: qq.options, answer: qq.answer, explain: qq.explain_zh })
+      steps.push({ kind: "mcq", ctx: qq.ctx || "阅读语法", q: qq.q, options: qq.options, answer: qq.answer, explain: qq.explain_zh })
     );
   }
   steps.push({ kind: "summary" });
@@ -179,7 +171,7 @@ function buildSession() {
   session = {
     steps, idx: 0,
     newVocabCount: newVocab.length,
-    hadGrammar: !!grammar, hadReading: !!reading, hadListening: !!listening,
+    hadGrammar: !!grammar, hadReading: !!reading,
     conjCount: conjSets.length,
     startTime: Date.now(),
     answered: 0, correct: 0, reviewed: due.length, learned: newVocab.length,
@@ -241,18 +233,16 @@ function renderHome() {
     <div>
       <div class="home-hero">
         <div style="font-size:46px">🇫🇷</div>
-        <h1>今日法语 · B2</h1>
-        <p>${doneToday ? "今天已完成 ✅ 可以再练一轮" : "约 30 分钟 · 词汇 / 语法 / 阅读 / 听力"}</p>
+        <h1>今日语法 · B1-B2</h1>
+        <p>${doneToday ? "今天已完成 ✅ 可以再练一轮" : "约 30 分钟 · 语法讲解 / 动词变位 / 语法阅读"}</p>
       </div>
       <div class="card">
         <ul class="plan-list">
-          <li><span class="pico">🔁</span><span class="ptxt"><b>记忆复习</b><small>间隔重复，巩固学过的词</small></span><span class="pcount">${dueCount}</span></li>
-          <li><span class="pico">📚</span><span class="ptxt"><b>新高频词</b><small>带例句和发音</small></span><span class="pcount">${newCount}</span></li>
-          <li><span class="pico">✍️</span><span class="ptxt"><b>语法</b><small>${DATA.grammar.length ? escapeHtml(DATA.grammar[state.grammarIndex % DATA.grammar.length].title) : "—"}</small></span><span class="pcount">1</span></li>
+          ${dueCount ? `<li><span class="pico">🔁</span><span class="ptxt"><b>旧卡片复习</b><small>保留以前学过的词卡，到期时才出现</small></span><span class="pcount">${dueCount}</span></li>` : ""}
+          <li><span class="pico">✍️</span><span class="ptxt"><b>语法主题</b><small>${DATA.grammar.length ? escapeHtml(DATA.grammar[state.grammarIndex % DATA.grammar.length].title) : "—"}</small></span><span class="pcount">1</span></li>
           <li><span class="pico">🔤</span><span class="ptxt"><b>动词变位</b><small>${DATA.conjugation.length ? escapeHtml(DATA.conjugation[state.conjugationIndex % DATA.conjugation.length].tense_zh) : "—"}</small></span><span class="pcount">${conjCount}</span></li>
-          <li><span class="pico">📖</span><span class="ptxt"><b>阅读理解</b><small>短文 + 问题</small></span><span class="pcount">1</span></li>
-          <li><span class="pico">🎧</span><span class="ptxt"><b>听力</b><small>法语朗读 + 问题</small></span><span class="pcount">1</span></li>
-          <li><span class="pico">🗂️</span><span class="ptxt"><b>知识库</b><small>从你的法语笔记整理出的 ${DATA.knowledge.length} 个主题</small></span><span class="pcount">${DATA.knowledge.length}</span></li>
+          <li><span class="pico">📖</span><span class="ptxt"><b>语法阅读</b><small>中长篇文章 + 重点语法标注</small></span><span class="pcount">1</span></li>
+          <li><span class="pico">🗂️</span><span class="ptxt"><b>语法知识库</b><small>从你的法语笔记整理出的 ${DATA.knowledge.length} 个主题</small></span><span class="pcount">${DATA.knowledge.length}</span></li>
         </ul>
       </div>
       <p class="hint">连续学习 ${state.streak} 天 · 累计 ${state.totalSessions} 次</p>
@@ -260,8 +250,8 @@ function renderHome() {
   `);
   setView(node);
   setActions([
-    btn("开始今日学习 ▶", "btn-primary", startSession),
-    btn("知识库", "btn-secondary", renderKnowledgeBase)
+    btn("开始语法练习 ▶", "btn-primary", startSession),
+    btn("语法知识库", "btn-secondary", renderKnowledgeBase)
   ]);
 }
 
@@ -285,8 +275,8 @@ function renderKnowledgeBase() {
     <div>
       <div class="kb-head">
         <div class="lesson-level">从《法语笔记.pdf》整理</div>
-        <h1>知识库</h1>
-        <p>按主题复习你学过的语法、表达和场景词汇。</p>
+        <h1>语法知识库</h1>
+        <p>按主题复习你学过的语法、句型和容易混淆的用法。</p>
       </div>
       <div class="topic-list">${topics}</div>
     </div>
@@ -362,7 +352,6 @@ function renderStep() {
     case "grammar": return renderGrammar(step);
     case "conj": return renderConjugation(step);
     case "reading": return renderReading(step);
-    case "listening": return renderListening(step);
     case "mcq": return renderMCQ(step);
     case "summary": return renderSummary();
   }
@@ -437,6 +426,17 @@ function renderGrammar(step) {
   setActions([btn("开始练习 →", "btn-primary", next)]);
 }
 
+function renderHighlightedText(text, focusItems) {
+  let html = escapeHtml(text);
+  (focusItems || []).forEach((item, idx) => {
+    const quote = escapeHtml(item.quote || "");
+    if (!quote || !html.includes(quote)) return;
+    const label = escapeHtml(item.label || `G${idx + 1}`);
+    html = html.replace(quote, `<mark class="grammar-mark" data-focus="${idx}">${quote}<span>${label}</span></mark>`);
+  });
+  return html;
+}
+
 function normFr(s) {
   return s.toLowerCase().trim().replace(/\s+/g, " ").replace(/[’']/g, "'");
 }
@@ -490,39 +490,35 @@ function renderConjugation(step) {
 
 function renderReading(step) {
   const r = step.item;
+  const focus = r.grammar_focus || [];
+  const focusHtml = focus.map((item, idx) => `
+    <li>
+      <button class="focus-card" data-focus="${idx}">
+        <b>${escapeHtml(item.label || "")}</b>
+        <span>${escapeHtml(item.grammar || "")}</span>
+        <small>${escapeHtml(item.note_zh || "")}</small>
+      </button>
+    </li>
+  `).join("");
   const node = el(`
     <div class="card">
       <div class="lesson-level">${escapeHtml(r.level || "")}</div>
       <h2 class="lesson-title">${escapeHtml(r.title)}</h2>
-      <p class="reading-text">${escapeHtml(r.text_fr)}</p>
-      <button class="audio-btn" id="play">🔊</button>
+      <p class="reading-text">${renderHighlightedText(r.text_fr, focus)}</p>
+      ${focusHtml ? `<h3 class="focus-title">文章里的语法重点</h3><ol class="focus-list">${focusHtml}</ol>` : ""}
     </div>
   `);
   setView(node);
-  $("#play").addEventListener("click", () => speak(r.text_fr));
-  setActions([btn("回答问题 →", "btn-primary", next)]);
-}
-
-function renderListening(step) {
-  const l = step.item;
-  const node = el(`
-    <div class="card" style="text-align:center">
-      <div class="lesson-level">${escapeHtml(l.level || "")}</div>
-      <h2 class="lesson-title">${escapeHtml(l.title)}</h2>
-      <p style="color:var(--muted)">点击播放，可重复听。听完再回答问题。</p>
-      <button class="audio-btn" id="play" style="width:72px;height:72px;font-size:30px">🔊</button>
-      <div style="margin-top:14px">
-        <button class="btn-ghost" id="slow">🐢 慢速</button>
-        <button class="btn-ghost" id="show">显示原文</button>
-      </div>
-      <p id="transcript" class="reading-text" style="text-align:left;margin-top:16px" hidden>${escapeHtml(l.transcript_fr)}</p>
-    </div>
-  `);
-  setView(node);
-  $("#play").addEventListener("click", () => speak(l.transcript_fr));
-  $("#slow").addEventListener("click", () => speak(l.transcript_fr, CFG.rateSlow));
-  $("#show").addEventListener("click", () => { $("#transcript").hidden = !$("#transcript").hidden; });
-  speak(l.transcript_fr);
+  node.querySelectorAll(".focus-card, .grammar-mark").forEach((item) => {
+    item.addEventListener("click", () => {
+      const idx = Number(item.dataset.focus);
+      const target = node.querySelector(`.focus-card[data-focus="${idx}"]`);
+      if (!target) return;
+      target.classList.add("pulse");
+      target.scrollIntoView({ behavior: "smooth", block: "center" });
+      setTimeout(() => target.classList.remove("pulse"), 650);
+    });
+  });
   setActions([btn("回答问题 →", "btn-primary", next)]);
 }
 
@@ -575,7 +571,6 @@ function renderSummary() {
   if (session.hadGrammar) state.grammarIndex += 1;
   if (session.conjCount) state.conjugationIndex += session.conjCount;
   if (session.hadReading) state.readingIndex += 1;
-  if (session.hadListening) state.listeningIndex += 1;
   saveState();
 
   clearInterval(timerInterval);
@@ -590,12 +585,12 @@ function renderSummary() {
       <h2 style="text-align:center;margin:6px 0">今日完成！Bravo !</h2>
       <p style="text-align:center;color:var(--muted)">连续 ${state.streak} 天 🔥</p>
       <div class="summary-grid">
-        <div class="stat"><div class="num">${session.learned}</div><div class="lbl">新学单词</div></div>
+        <div class="stat"><div class="num">${session.hadGrammar ? 1 : 0}</div><div class="lbl">语法主题</div></div>
         <div class="stat"><div class="num">${session.reviewed}</div><div class="lbl">复习卡片</div></div>
         <div class="stat"><div class="num">${session.answered ? acc + "%" : "—"}</div><div class="lbl">练习正确率</div></div>
         <div class="stat"><div class="num">${mins}</div><div class="lbl">分钟</div></div>
       </div>
-      <p class="hint">明天的复习已自动安排好，记得回来打卡！</p>
+      <p class="hint">明天会自动进入下一个语法主题和下一篇语法阅读。</p>
     </div>
   `));
   setActions([btn("回到首页", "btn-secondary", renderHome)]);
