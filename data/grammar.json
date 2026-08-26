@@ -1,20 +1,1179 @@
 [
   {
+    "id": "ga01",
+    "title": "虚拟式进阶:subjonctif passé 与情感/评价结构",
+    "level": "B2",
+    "explain_zh": "虚拟式过去时(subjonctif passé)= avoir/être 的虚拟式现在时 + 过去分词,表示主句视角下【已经完成】的事:\n• Je suis contente qu'il soit venu.(他来了,我很高兴)\n• Je regrette que tu aies raté le train.(你错过了火车,我很遗憾)\n触发虚拟式的不只有 il faut que:\n• 情感:être content/désolé/surpris que, regretter que, avoir peur que\n• 评价:il est normal/dommage/étrange que, c'est le seul... qui/que\n• 怀疑否定:douter que, ne pas croire que, il est peu probable que\n陷阱:espérer que + 直陈式!penser/croire 肯定式 + 直陈式,否定/疑问式才 + 虚拟式。",
+    "examples": [
+      {
+        "fr": "Je suis surprise qu'il n'ait rien dit.",
+        "zh": "他什么都没说,我很惊讶。(虚拟式过去)"
+      },
+      {
+        "fr": "C'est dommage que vous soyez partis si tôt.",
+        "zh": "你们这么早就走了,真可惜。"
+      },
+      {
+        "fr": "J'espère que tu vas bien.",
+        "zh": "希望你一切都好。(espérer + 直陈式!)"
+      }
+    ],
+    "exercises": [
+      {
+        "q": "Je suis ravie que tu ___ venir ce soir.",
+        "options": [
+          "peux",
+          "puisses",
+          "pourras",
+          "pouvais"
+        ],
+        "answer": 1,
+        "hint_zh": "être ravi(e) que(情感)+ 虚拟式 → puisses"
+      },
+      {
+        "q": "C'est dommage qu'elle ___ la réunion hier.",
+        "options": [
+          "a raté",
+          "ait raté",
+          "avait raté",
+          "ratera"
+        ],
+        "answer": 1,
+        "hint_zh": "il est dommage que + 已完成的事 → 虚拟式过去 ait raté"
+      },
+      {
+        "q": "Je doute qu'ils ___ la vérité.",
+        "options": [
+          "disent",
+          "diront",
+          "ont dit",
+          "disaient"
+        ],
+        "answer": 0,
+        "hint_zh": "douter que + 虚拟式;dire 的虚拟式现在 = disent(拼写同直陈式)"
+      },
+      {
+        "q": "J'espère que vous ___ un bon voyage.",
+        "options": [
+          "fassiez",
+          "ferez",
+          "faisiez",
+          "eussiez fait"
+        ],
+        "answer": 1,
+        "hint_zh": "陷阱!espérer que + 直陈式(常用将来时),不用虚拟式"
+      },
+      {
+        "q": "Il est peu probable qu'il ___ avant midi.",
+        "options": [
+          "arrive",
+          "arrivera",
+          "est arrivé",
+          "arriverait"
+        ],
+        "answer": 0,
+        "hint_zh": "il est peu probable que + 虚拟式 → arrive(il est probable que 反而 + 直陈式)"
+      },
+      {
+        "q": "Je ne crois pas que ce ___ une bonne idée.",
+        "options": [
+          "est",
+          "soit",
+          "sera",
+          "serait"
+        ],
+        "answer": 1,
+        "hint_zh": "croire 否定式 + 虚拟式 → soit;肯定式 je crois que c'est 用直陈式"
+      },
+      {
+        "q": "C'est le meilleur film que j'___ jamais ___.",
+        "options": [
+          "ai / vu",
+          "aie / vu",
+          "avais / vu",
+          "aurai / vu"
+        ],
+        "answer": 1,
+        "hint_zh": "最高级 + qui/que 从句常用虚拟式:le meilleur... que j'aie vu"
+      },
+      {
+        "q": "Elle a peur que ses parents ne ___ pas.",
+        "options": [
+          "comprennent",
+          "comprendront",
+          "comprenaient",
+          "ont compris"
+        ],
+        "answer": 0,
+        "hint_zh": "avoir peur que + 虚拟式;这里 ne...pas 是真否定:怕他们【不】理解"
+      }
+    ]
+  },
+  {
+    "id": "ga02",
+    "title": "si 条件句三型(+ 常见混合)",
+    "level": "B2",
+    "explain_zh": "三种经典结构,si 从句里【永远不出现】将来时和条件式:\n① 很可能实现:si + présent → futur simple(Si j'ai le temps, je viendrai.)\n② 与现在事实相反:si + imparfait → conditionnel présent(Si j'avais le temps, je viendrais.)\n③ 与过去事实相反:si + plus-que-parfait → conditionnel passé(Si j'avais eu le temps, je serais venue.)\n混合型:过去的假设 + 现在的结果:Si j'avais étudié, je parlerais mieux aujourd'hui.\n另注意:si + on + imparfait 可表建议(Si on allait au cinéma ?= 我们去看电影怎么样?)",
+    "examples": [
+      {
+        "fr": "Si tu pars maintenant, tu attraperas ton train.",
+        "zh": "如果你现在走,还赶得上火车。(①)"
+      },
+      {
+        "fr": "Si j'étais toi, je refuserais.",
+        "zh": "我要是你,就拒绝。(②)"
+      },
+      {
+        "fr": "Si nous avions su, nous ne serions pas venus.",
+        "zh": "早知道我们就不来了。(③)"
+      }
+    ],
+    "exercises": [
+      {
+        "q": "Si j'avais plus de temps, je ___ le chinois.",
+        "options": [
+          "apprendrai",
+          "apprendrais",
+          "apprends",
+          "aurais appris"
+        ],
+        "answer": 1,
+        "hint_zh": "si + imparfait → conditionnel présent:apprendrais(第②型)"
+      },
+      {
+        "q": "Si elle ___ hier, elle aurait vu le spectacle.",
+        "options": [
+          "venait",
+          "était venue",
+          "viendrait",
+          "vienne"
+        ],
+        "answer": 1,
+        "hint_zh": "结果是 conditionnel passé → si 从句用 plus-que-parfait:était venue"
+      },
+      {
+        "q": "S'il pleut demain, nous ___ à la maison.",
+        "options": [
+          "resterions",
+          "resterons",
+          "restions",
+          "serions restés"
+        ],
+        "answer": 1,
+        "hint_zh": "si + présent → futur:resterons(第①型,很可能发生)"
+      },
+      {
+        "q": "错误的句子是:",
+        "options": [
+          "Si tu veux, on part ce soir.",
+          "Si tu voudras, on partira.",
+          "Si tu voulais, on partirait.",
+          "Si tu avais voulu, on serait partis."
+        ],
+        "answer": 1,
+        "hint_zh": "si 后面永远不能用将来时:Si tu voudras ✗"
+      },
+      {
+        "q": "Si tu m'avais écouté, tu ___ moins de problèmes aujourd'hui.",
+        "options": [
+          "aurais eu",
+          "aurais",
+          "avais",
+          "auras"
+        ],
+        "answer": 1,
+        "hint_zh": "混合型:过去的假设(avais écouté)+ 现在的结果 → conditionnel présent:aurais"
+      },
+      {
+        "q": "« Si on ___ une pause ? » (提议)",
+        "options": [
+          "fera",
+          "faisait",
+          "ferait",
+          "fasse"
+        ],
+        "answer": 1,
+        "hint_zh": "si + on + imparfait = 提建议:「我们休息一下怎么样?」"
+      },
+      {
+        "q": "Si vous ___ des questions, n'hésitez pas à m'écrire.",
+        "options": [
+          "avez",
+          "auriez",
+          "aurez",
+          "ayez"
+        ],
+        "answer": 0,
+        "hint_zh": "si + présent → 主句可用命令式:n'hésitez pas"
+      },
+      {
+        "q": "Elle serait venue si elle ___ invitée.",
+        "options": [
+          "était",
+          "avait été",
+          "serait",
+          "aurait été"
+        ],
+        "answer": 1,
+        "hint_zh": "conditionnel passé ↔ si + plus-que-parfait(被动:avait été invitée)"
+      }
+    ]
+  },
+  {
+    "id": "ga03",
+    "title": "过去分词配合大全(accord du participe passé)",
+    "level": "B2",
+    "explain_zh": "三条核心规则:\n① être 作助动词(移动/状态动词):分词与【主语】配合 → Elles sont parties.\n② avoir 作助动词:通常不配合;但 COD 在动词【前面】时,与 COD 配合 → Les fleurs que j'ai achetées. / Je les ai vues.\n③ 代词式动词:se 是直接宾语时配合(Elle s'est lavée);se 是间接宾语时不配合(Elle s'est lavé les mains — COD 是 les mains,在后面);互相打电话 se téléphoner(téléphoner à)永不配合:Elles se sont téléphoné.\n快速判断:找到 COD,看它在动词前还是后。",
+    "examples": [
+      {
+        "fr": "Voici les photos que nous avons prises.",
+        "zh": "这是我们拍的照片。(que = COD 前置 → prises)"
+      },
+      {
+        "fr": "Elle s'est coupée. / Elle s'est coupé le doigt.",
+        "zh": "她割伤了自己。/ 她割伤了手指。(第二句 COD 在后,不配合)"
+      },
+      {
+        "fr": "Ils se sont écrit pendant dix ans.",
+        "zh": "他们通信十年。(écrire à qn → se 是间宾,不配合)"
+      }
+    ],
+    "exercises": [
+      {
+        "q": "Les erreurs que j'ai ___ m'ont appris beaucoup.",
+        "options": [
+          "fait",
+          "faite",
+          "faites",
+          "faits"
+        ],
+        "answer": 2,
+        "hint_zh": "que = les erreurs(阴性复数)前置 → faites"
+      },
+      {
+        "q": "Elle s'est ___ les cheveux ce matin.",
+        "options": [
+          "lavée",
+          "lavé",
+          "lavés",
+          "lavées"
+        ],
+        "answer": 1,
+        "hint_zh": "COD = les cheveux 在动词后 → 不配合:lavé"
+      },
+      {
+        "q": "Ces lettres ? Il ne les a jamais ___.",
+        "options": [
+          "lu",
+          "lue",
+          "lus",
+          "lues"
+        ],
+        "answer": 3,
+        "hint_zh": "les = ces lettres(阴性复数)前置 → lues"
+      },
+      {
+        "q": "Marie et sa sœur se sont ___ hier soir.",
+        "options": [
+          "téléphoné",
+          "téléphonées",
+          "téléphonés",
+          "téléphonée"
+        ],
+        "answer": 0,
+        "hint_zh": "téléphoner À qn → se 是间接宾语 → 永不配合:téléphoné"
+      },
+      {
+        "q": "Elles se sont ___ au premier regard.",
+        "options": [
+          "plu",
+          "plues",
+          "plus",
+          "plaites"
+        ],
+        "answer": 0,
+        "hint_zh": "plaire À qn → se 间宾 → 不配合:elles se sont plu(一见倾心)"
+      },
+      {
+        "q": "La décision qu'ils ont ___ était courageuse.",
+        "options": [
+          "pris",
+          "prise",
+          "prises",
+          "prendre"
+        ],
+        "answer": 1,
+        "hint_zh": "qu' = la décision(阴性单数)前置 → prise"
+      },
+      {
+        "q": "Nous nous sommes ___ à la gare. (rencontrer, nous = 两位女性)",
+        "options": [
+          "rencontré",
+          "rencontrés",
+          "rencontrées",
+          "rencontrée"
+        ],
+        "answer": 2,
+        "hint_zh": "rencontrer qn 直接及物 → se 是 COD → 与主语(阴性复数)配合:rencontrées"
+      },
+      {
+        "q": "Combien de pages as-tu ___ ?",
+        "options": [
+          "écrit",
+          "écrite",
+          "écrites",
+          "écris"
+        ],
+        "answer": 2,
+        "hint_zh": "combien de pages 是前置 COD(阴性复数)→ écrites"
+      }
+    ]
+  },
+  {
+    "id": "ga04",
+    "title": "被动语态 la voix passive(+ se faire / on)",
+    "level": "B2",
+    "explain_zh": "构成:être(变位到所需时态)+ 过去分词,分词与主语配合;施动者用 par 引出(情感/状态动词常用 de):\n• Le projet a été validé par la direction.\n• Elle est respectée de tous.\n只有【直接及物动词】能变被动;téléphoner à 等间接结构不行 ✗。\n替代方案(法语更常用!):\n• on:On m'a volé mon vélo.(我的车被偷了)\n• se faire + inf.:Il s'est fait licencier.(他被解雇了)\n• 代词式被动:Ce vin se boit frais.(这种酒要冰着喝)",
+    "examples": [
+      {
+        "fr": "La décision sera annoncée demain.",
+        "zh": "决定将于明天宣布。(将来时被动)"
+      },
+      {
+        "fr": "Elle s'est fait couper les cheveux.",
+        "zh": "她去剪了头发。(se faire + inf.)"
+      },
+      {
+        "fr": "Ce plat se mange froid.",
+        "zh": "这道菜要凉着吃。(代词式被动)"
+      }
+    ],
+    "exercises": [
+      {
+        "q": "Ce roman ___ par des millions de lecteurs.",
+        "options": [
+          "a lu",
+          "a été lu",
+          "est lu par",
+          "s'est lu"
+        ],
+        "answer": 1,
+        "hint_zh": "被动完成时:a été lu(par 引出施动者已在句中)"
+      },
+      {
+        "q": "La tour Eiffel ___ en 1889.",
+        "options": [
+          "a construit",
+          "a été construite",
+          "était construit",
+          "est construite"
+        ],
+        "answer": 1,
+        "hint_zh": "一次性完成 → passé composé 被动 + 阴性配合:a été construite"
+      },
+      {
+        "q": "Il ___ voler son portefeuille dans le métro.",
+        "options": [
+          "s'est fait",
+          "a été",
+          "s'est",
+          "a fait"
+        ],
+        "answer": 0,
+        "hint_zh": "se faire + inf. 表遭遇:il s'est fait voler(他被偷了)"
+      },
+      {
+        "q": "Cette expression ne ___ plus beaucoup aujourd'hui.",
+        "options": [
+          "s'utilise",
+          "est utilisé",
+          "utilise",
+          "s'est utilisée"
+        ],
+        "answer": 0,
+        "hint_zh": "代词式被动表一般规律:s'utilise(注意 expression 阴性,选项 b 缺配合)"
+      },
+      {
+        "q": "Elle est appréciée ___ tous ses collègues.",
+        "options": [
+          "par",
+          "de",
+          "avec",
+          "pour"
+        ],
+        "answer": 1,
+        "hint_zh": "情感类动词(aimer, apprécier, respecter)的施动者常用 de"
+      },
+      {
+        "q": "不能变被动的句子是:",
+        "options": [
+          "On a résolu le problème.",
+          "On a répondu à la question.",
+          "On a signé le contrat.",
+          "On a invité les voisins."
+        ],
+        "answer": 1,
+        "hint_zh": "répondre À(间接及物)不能变被动;其他都是直接及物"
+      },
+      {
+        "q": "Les résultats ___ être publiés la semaine prochaine.",
+        "options": [
+          "devront",
+          "seront",
+          "auront",
+          "feront"
+        ],
+        "answer": 0,
+        "hint_zh": "情态动词 + 被动不定式:devront être publiés"
+      },
+      {
+        "q": "« On m'a proposé un nouveau poste » 最自然的意思是:",
+        "options": [
+          "我提议了一个新职位",
+          "有人向我提供了一个新职位",
+          "我被迫接受新职位",
+          "我拒绝了新职位"
+        ],
+        "answer": 1,
+        "hint_zh": "on 结构替代被动:「我被 offer 了一个职位」"
+      }
+    ]
+  },
+  {
+    "id": "ga05",
+    "title": "间接引语与时态呼应 concordance des temps",
+    "level": "B2",
+    "explain_zh": "主句是过去时(il a dit que...)时,从句时态整体「后退一格」:\n• présent → imparfait:« Je suis fatigué » → Il a dit qu'il était fatigué.\n• passé composé → plus-que-parfait:« J'ai fini » → Il a dit qu'il avait fini.\n• futur simple → conditionnel présent:« Je viendrai » → Il a dit qu'il viendrait.\n• futur antérieur → conditionnel passé\n(imparfait、conditionnel 保持不变)\n时间词也要变:aujourd'hui → ce jour-là;hier → la veille;demain → le lendemain;la semaine prochaine → la semaine suivante。\n疑问:est-ce que → si;qu'est-ce que → ce que;命令 → de + inf.",
+    "examples": [
+      {
+        "fr": "Elle a annoncé qu'elle partirait le lendemain.",
+        "zh": "她宣布第二天出发。(futur → conditionnel)"
+      },
+      {
+        "fr": "Il m'a demandé si j'avais déjà visité Lyon.",
+        "zh": "他问我是否去过里昂。(passé composé → plus-que-parfait)"
+      },
+      {
+        "fr": "Le médecin lui a dit de se reposer.",
+        "zh": "医生让他休息。(命令式 → de + 不定式)"
+      }
+    ],
+    "exercises": [
+      {
+        "q": "« Je viendrai demain. » → Il a dit qu'il ___ le lendemain.",
+        "options": [
+          "viendra",
+          "viendrait",
+          "venait",
+          "serait venu"
+        ],
+        "answer": 1,
+        "hint_zh": "futur simple → conditionnel présent;demain → le lendemain"
+      },
+      {
+        "q": "« J'ai perdu mes clés. » → Elle a expliqué qu'elle ___ ses clés.",
+        "options": [
+          "a perdu",
+          "perdait",
+          "avait perdu",
+          "aurait perdu"
+        ],
+        "answer": 2,
+        "hint_zh": "passé composé → plus-que-parfait"
+      },
+      {
+        "q": "« Est-ce que tu es libre ? » → Il m'a demandé ___ j'étais libre.",
+        "options": [
+          "que",
+          "si",
+          "ce que",
+          "quand"
+        ],
+        "answer": 1,
+        "hint_zh": "是非问句转间接引语用 si"
+      },
+      {
+        "q": "« Qu'est-ce que vous faites ? » → Elle a demandé ___ nous faisions.",
+        "options": [
+          "qu'est-ce que",
+          "que",
+          "ce que",
+          "quoi"
+        ],
+        "answer": 2,
+        "hint_zh": "qu'est-ce que → ce que(间接引语不能保留 est-ce que)"
+      },
+      {
+        "q": "« Partez immédiatement ! » → Il leur a ordonné ___.",
+        "options": [
+          "qu'ils partent immédiatement",
+          "de partir immédiatement",
+          "partir immédiatement",
+          "à partir immédiatement"
+        ],
+        "answer": 1,
+        "hint_zh": "命令式 → ordonner/dire de + 不定式"
+      },
+      {
+        "q": "« Nous avons déménagé hier. » → Ils ont dit qu'ils avaient déménagé ___.",
+        "options": [
+          "hier",
+          "la veille",
+          "le lendemain",
+          "ce jour-là"
+        ],
+        "answer": 1,
+        "hint_zh": "hier → la veille(前一天)"
+      },
+      {
+        "q": "« Je t'appellerai quand j'aurai fini. » → Elle a promis qu'elle m'appellerait quand elle ___.",
+        "options": [
+          "aura fini",
+          "aurait fini",
+          "avait fini",
+          "finirait"
+        ],
+        "answer": 1,
+        "hint_zh": "futur antérieur → conditionnel passé:aurait fini"
+      },
+      {
+        "q": "哪句时态呼应是错的?",
+        "options": [
+          "Il a dit qu'il était malade.",
+          "Il a dit qu'il a été malade la semaine dernière.",
+          "Il a dit qu'il avait été malade.",
+          "Il a dit qu'il serait absent."
+        ],
+        "answer": 1,
+        "hint_zh": "主句过去时后,« il a été » 应退为 plus-que-parfait:avait été"
+      }
+    ]
+  },
+  {
+    "id": "ga06",
+    "title": "gérondif 与 participe présent",
+    "level": "B2",
+    "explain_zh": "构成:nous 现在时词根 + -ant(savoir → sachant, avoir → ayant, être → étant)。\n① gérondif = en + -ant:主语必须与主句相同,表【同时/方式/条件/让步(tout en)】:\n• Elle travaille en écoutant de la musique.(同时)\n• En lisant chaque jour, tu progresseras.(方式/条件)\n• Tout en comprenant ta colère, je ne suis pas d'accord.(让步)\n② participe présent(无 en):相当于一个关系从句或原因状语,可以有自己的主语:\n• Les personnes ayant un billet peuvent entrer.(= qui ont)\n• La nuit tombant, nous sommes rentrés.(独立分词句表原因)\n③ 形容词化的 -ant 要配合(une histoire étonnante),分词本身不配合。",
+    "examples": [
+      {
+        "fr": "Il s'est blessé en descendant l'escalier.",
+        "zh": "他下楼梯时受了伤。(gérondif 表同时)"
+      },
+      {
+        "fr": "Étant donné la situation, la réunion est annulée.",
+        "zh": "鉴于目前情况,会议取消。"
+      },
+      {
+        "fr": "C'est en forgeant qu'on devient forgeron.",
+        "zh": "打铁方成铁匠(熟能生巧)。"
+      }
+    ],
+    "exercises": [
+      {
+        "q": "___ tous les jours, elle a fini par maîtriser le subjonctif.",
+        "options": [
+          "En pratiquant",
+          "Pratiquant",
+          "Pratiquée",
+          "À pratiquer"
+        ],
+        "answer": 0,
+        "hint_zh": "gérondif 表方式:「通过每天练习」"
+      },
+      {
+        "q": "Les candidats ___ les conditions requises seront convoqués.",
+        "options": [
+          "en remplissant",
+          "remplissant",
+          "remplis",
+          "remplir"
+        ],
+        "answer": 1,
+        "hint_zh": "participe présent 作定语 = qui remplissent(不用 en)"
+      },
+      {
+        "q": "« Tout en ___ ses efforts, je reste sceptique. »",
+        "options": [
+          "saluant",
+          "salue",
+          "saluer",
+          "salué"
+        ],
+        "answer": 0,
+        "hint_zh": "tout en + -ant 表让步:虽然肯定他的努力,我仍然怀疑"
+      },
+      {
+        "q": "Le participe présent de « savoir » est :",
+        "options": [
+          "savant",
+          "sachant",
+          "sabant",
+          "sait"
+        ],
+        "answer": 1,
+        "hint_zh": "特殊:savoir → sachant(savant 是形容词「博学的」)"
+      },
+      {
+        "q": "Il a trouvé ce travail ___ une annonce en ligne.",
+        "options": [
+          "en consultant",
+          "consultant",
+          "consulté",
+          "à consulter"
+        ],
+        "answer": 0,
+        "hint_zh": "gérondif 表方式:通过浏览网上广告"
+      },
+      {
+        "q": "哪句的 en + -ant 用法是错的?",
+        "options": [
+          "Elle chante en cuisinant.",
+          "En arrivant, appelle-moi.",
+          "Je l'ai vu en sortant du bureau, lui.",
+          "Il a réussi en travaillant dur."
+        ],
+        "answer": 2,
+        "hint_zh": "gérondif 的主语必须 = 主句主语:「我看见他」时 en sortant 只能指「我」出办公室,句子有歧义/错误"
+      },
+      {
+        "q": "Une soirée ___, des invités ___.(选形容词化配合正确的)",
+        "options": [
+          "étonnant / charmant",
+          "étonnante / charmants",
+          "étonnants / charmante",
+          "étonnante / charmant"
+        ],
+        "answer": 1,
+        "hint_zh": "-ant 作形容词要配合:soirée étonnante(阴单), invités charmants(阳复)"
+      },
+      {
+        "q": "___ terminé ses études, il a cherché du travail.",
+        "options": [
+          "En ayant",
+          "Ayant",
+          "Avoir",
+          "Étant"
+        ],
+        "answer": 1,
+        "hint_zh": "复合分词(ayant + 分词)表先后:完成学业之后"
+      }
+    ]
+  },
+  {
+    "id": "ga07",
+    "title": "复合关系代词 lequel / auquel / duquel",
+    "level": "B2",
+    "explain_zh": "介词 + 关系代词时用 lequel 系列,按先行词性数变化:lequel, laquelle, lesquels, lesquelles。\n• à + lequel → auquel / à laquelle / auxquels / auxquelles\n• de + lequel → duquel / de laquelle / desquels / desquelles\n先行词是【人】时,介词后也可用 qui:l'ami avec qui / avec lequel je voyage。\n何时必须用 duquel 而不是 dont?——介词短语(à côté de, au milieu de, à cause de, au sujet de...)后只能用 duquel 系列:la maison à côté de laquelle j'habite。\ndont 只替代直接跟在动词/名词/形容词后的 de。",
+    "examples": [
+      {
+        "fr": "Le projet auquel je participe avance bien.",
+        "zh": "我参与的项目进展顺利。(participer à)"
+      },
+      {
+        "fr": "C'est une question à laquelle personne n'a répondu.",
+        "zh": "这是一个没人回答的问题。(répondre à)"
+      },
+      {
+        "fr": "Le parc au milieu duquel se trouve un lac est immense.",
+        "zh": "中间有湖的那个公园很大。(au milieu de → duquel)"
+      }
+    ],
+    "exercises": [
+      {
+        "q": "Le problème ___ je pense est complexe.",
+        "options": [
+          "dont",
+          "auquel",
+          "duquel",
+          "que"
+        ],
+        "answer": 1,
+        "hint_zh": "penser à → à + lequel = auquel(不能用 dont,dont 只管 de)"
+      },
+      {
+        "q": "Les outils ___ nous travaillons sont anciens.",
+        "options": [
+          "avec lesquels",
+          "avec qui",
+          "dont",
+          "auxquels"
+        ],
+        "answer": 0,
+        "hint_zh": "travailler avec + 物 → avec lesquels(qui 介词后只用于人)"
+      },
+      {
+        "q": "La réunion au cours de ___ tout s'est décidé a duré trois heures.",
+        "options": [
+          "laquelle",
+          "qui",
+          "dont",
+          "quoi"
+        ],
+        "answer": 0,
+        "hint_zh": "介词短语 au cours de + laquelle(réunion 阴性单数)"
+      },
+      {
+        "q": "C'est un sujet ___ on parle beaucoup.",
+        "options": [
+          "auquel",
+          "duquel",
+          "dont",
+          "lequel"
+        ],
+        "answer": 2,
+        "hint_zh": "parler de 直接跟动词 → dont 优先(duquel 语法可行但笨重)"
+      },
+      {
+        "q": "L'entreprise pour ___ elle travaille est allemande.",
+        "options": [
+          "laquelle",
+          "lequel",
+          "dont",
+          "quoi"
+        ],
+        "answer": 0,
+        "hint_zh": "pour + laquelle(entreprise 阴性);先行词是机构,也常见 pour qui"
+      },
+      {
+        "q": "Les amis chez ___ j'ai logé sont adorables.",
+        "options": [
+          "lesquels",
+          "qui",
+          "dont",
+          "les deux premiers sont possibles"
+        ],
+        "answer": 3,
+        "hint_zh": "先行词是人:chez qui 和 chez lesquels 都可以,qui 更自然"
+      },
+      {
+        "q": "La rivière au bord de ___ nous avons pique-niqué était calme.",
+        "options": [
+          "dont",
+          "de laquelle",
+          "laquelle",
+          "qui"
+        ],
+        "answer": 1,
+        "hint_zh": "au bord de(介词短语)→ de laquelle,不能用 dont"
+      },
+      {
+        "q": "Ce sont des questions ___ il faudra réfléchir.",
+        "options": [
+          "auxquelles",
+          "auxquels",
+          "dont",
+          "desquelles"
+        ],
+        "answer": 0,
+        "hint_zh": "réfléchir à + questions(阴性复数)→ auxquelles"
+      }
+    ]
+  },
+  {
+    "id": "ga08",
+    "title": "让步与对立:bien que, avoir beau, malgré, pourtant",
+    "level": "B2",
+    "explain_zh": "按后面接什么来分类记:\n① + 虚拟式:bien que, quoique(虽然)、quoi que(无论什么)、si/aussi + adj + que(Si riche qu'il soit)\n② + 直陈式:même si(即使,兼假设)、alors que / tandis que(而,对比)\n③ + 条件式:quand bien même(就算)\n④ + 名词:malgré, en dépit de(尽管)\n⑤ + 不定式:avoir beau(白白地/尽管):Il a beau crier, personne ne l'écoute.\n⑥ 副词连接:pourtant, cependant, néanmoins, toutefois(然而)\n典型错误:malgré que ✗(口语存在但考试禁用)→ 用 bien que 或 malgré + 名词。",
+    "examples": [
+      {
+        "fr": "Bien qu'elle soit fatiguée, elle continue.",
+        "zh": "虽然她累了,但她继续。(+虚拟式)"
+      },
+      {
+        "fr": "Il a beau être riche, il n'est pas heureux.",
+        "zh": "他虽然有钱,却不幸福。(avoir beau + inf.)"
+      },
+      {
+        "fr": "Même s'il pleut, nous sortirons.",
+        "zh": "即使下雨,我们也出门。(+直陈式)"
+      }
+    ],
+    "exercises": [
+      {
+        "q": "___ ses efforts, il a échoué.",
+        "options": [
+          "Bien que",
+          "Malgré",
+          "Quoique",
+          "Même si"
+        ],
+        "answer": 1,
+        "hint_zh": "后面是名词(ses efforts)→ malgré;bien que/quoique 要接从句"
+      },
+      {
+        "q": "Bien qu'il ___ tard, elle travaille encore.",
+        "options": [
+          "est",
+          "soit",
+          "sera",
+          "serait"
+        ],
+        "answer": 1,
+        "hint_zh": "bien que + 虚拟式 → soit"
+      },
+      {
+        "q": "Il a ___ expliquer trois fois, personne n'a compris.",
+        "options": [
+          "beau",
+          "bien",
+          "beaucoup",
+          "bon"
+        ],
+        "answer": 0,
+        "hint_zh": "avoir beau + inf. = 尽管做了也白做"
+      },
+      {
+        "q": "___ il pleuve ou qu'il vente, le facteur passe.",
+        "options": [
+          "Même si",
+          "Qu'",
+          "Alors qu'",
+          "Pendant qu'"
+        ],
+        "answer": 1,
+        "hint_zh": "Qu'il pleuve ou qu'il vente(无论刮风下雨)= que + 虚拟式的让步句式"
+      },
+      {
+        "q": "Elle est sortie sans manteau, ___ il faisait -5°C.",
+        "options": [
+          "alors qu'",
+          "bien qu'",
+          "quoiqu'",
+          "pour qu'"
+        ],
+        "answer": 0,
+        "hint_zh": "alors que + 直陈式(faisait)表对比;bien que 后要虚拟式"
+      },
+      {
+        "q": "考试写作中错误的表达是:",
+        "options": [
+          "malgré la pluie",
+          "bien que ce soit difficile",
+          "malgré que ce soit difficile",
+          "en dépit du froid"
+        ],
+        "answer": 2,
+        "hint_zh": "malgré que 不规范;改 bien que + 虚拟式或 malgré + 名词"
+      },
+      {
+        "q": "___ tu dises, je ne changerai pas d'avis.",
+        "options": [
+          "Quoique",
+          "Quoi que",
+          "Bien que",
+          "Même si"
+        ],
+        "answer": 1,
+        "hint_zh": "quoi que(分开)= 无论(说)什么;quoique(连写)= 虽然"
+      },
+      {
+        "q": "Si intelligent qu'il ___, il ne peut pas tout savoir.",
+        "options": [
+          "est",
+          "soit",
+          "sera",
+          "était"
+        ],
+        "answer": 1,
+        "hint_zh": "si + adj + que + 虚拟式:再聪明也不可能全知"
+      }
+    ]
+  },
+  {
+    "id": "ga09",
+    "title": "ne 的三副面孔:ne explétif / ne...que / ne 单独否定",
+    "level": "B2-C1",
+    "explain_zh": "看到 ne 别急着翻译成「不」,先判断:\n① ne explétif(赘词,无否定义),出现在:avant que, à moins que, de peur/crainte que, craindre/redouter que 之后;比较级 plus/moins... que 之后:Il est plus tard que je ne pensais.\n② ne... que = seulement(只):Je n'ai que dix euros.(我只有 10 欧)\n③ 文雅的单独 ne(不加 pas),仅限 cesser, oser, pouvoir, savoir:Je ne saurais vous dire.(我说不好)\n④ 真否定必须有 pas/plus/jamais/rien/personne/aucun 等第二成分。\n考试技巧:题干问「这个 ne 是否定吗?」→ 找 pas 等成分;找不到就先怀疑是赘词或 ne...que。",
+    "examples": [
+      {
+        "fr": "Partons avant qu'il ne pleuve.",
+        "zh": "趁还没下雨我们走吧。(赘词,没有「不下雨」的意思)"
+      },
+      {
+        "fr": "Elle n'a fait que son travail.",
+        "zh": "她只是做了她的本职工作。(ne...que)"
+      },
+      {
+        "fr": "Je n'ose le lui dire.",
+        "zh": "我不敢跟他说。(文雅单独 ne = ne pas)"
+      }
+    ],
+    "exercises": [
+      {
+        "q": "« Téléphone-moi avant que tu ne partes. » 这里的 ne :",
+        "options": [
+          "表示否定:别走",
+          "是赘词,句意是「在你走之前」",
+          "是 ne...que 的一部分",
+          "是错别字"
+        ],
+        "answer": 1,
+        "hint_zh": "avant que + 虚拟式 + ne explétif,没有否定含义"
+      },
+      {
+        "q": "« Il ne mange que des légumes. » 意思是:",
+        "options": [
+          "他不吃蔬菜",
+          "他只吃蔬菜",
+          "他连蔬菜都不吃",
+          "他从不吃饭"
+        ],
+        "answer": 1,
+        "hint_zh": "ne...que = seulement:只吃蔬菜"
+      },
+      {
+        "q": "C'est plus difficile que je ___ l'imaginais.",
+        "options": [
+          "ne",
+          "n'en",
+          "le",
+          "无需填词"
+        ],
+        "answer": 0,
+        "hint_zh": "比较级 que 后的赘词 ne:que je ne l'imaginais(比我想象的难)"
+      },
+      {
+        "q": "Je crains qu'il ___ trop tard.",
+        "options": [
+          "n'est",
+          "ne soit",
+          "soit pas",
+          "n'ait"
+        ],
+        "answer": 1,
+        "hint_zh": "craindre que + 虚拟式 + ne 赘词:恐怕已经太晚了(不是「不晚」!)"
+      },
+      {
+        "q": "「他只工作了两小时」正确的说法是:",
+        "options": [
+          "Il n'a travaillé que deux heures.",
+          "Il n'a que travaillé deux heures.",
+          "Il a travaillé ne que deux heures.",
+          "Il n'a pas travaillé que deux heures."
+        ],
+        "answer": 0,
+        "hint_zh": "que 放在被限定的成分(deux heures)前面"
+      },
+      {
+        "q": "« Je crains qu'il ne vienne pas. » 意思是:",
+        "options": [
+          "我怕他来",
+          "我怕他不来",
+          "我希望他来",
+          "我只怕他来"
+        ],
+        "answer": 1,
+        "hint_zh": "有 pas → 真否定:怕他【不】来;对比无 pas 的 je crains qu'il ne vienne = 怕他来"
+      },
+      {
+        "q": "哪个动词可以文雅地单用 ne(不加 pas)?",
+        "options": [
+          "manger",
+          "oser",
+          "regarder",
+          "donner"
+        ],
+        "answer": 1,
+        "hint_zh": "四个特权动词:cesser, oser, pouvoir, savoir → Je n'ose le dire."
+      },
+      {
+        "q": "À moins que vous ___ d'autres questions, la séance est levée.",
+        "options": [
+          "n'ayez",
+          "avez",
+          "aurez",
+          "n'avez"
+        ],
+        "answer": 0,
+        "hint_zh": "à moins que + 虚拟式(ayez)+ 赘词 ne → n'ayez"
+      }
+    ]
+  },
+  {
+    "id": "ga10",
+    "title": "因果·目的·结果进阶:de sorte que, si bien que, d'autant plus que",
+    "level": "B2",
+    "explain_zh": "① 结果(+ 直陈式,事已发生):si bien que, de sorte que, à tel point que, tellement... que:\n• Il a plu toute la nuit, si bien que la route est inondée.\n② 目的(+ 虚拟式,尚未实现):pour que, afin que, de sorte que(歧义!接虚拟式时表目的), de peur que:\n• Parle plus fort pour qu'on t'entende.\n③ 原因强化:d'autant plus que(尤其因为)、faute de + 名词(因缺乏)、à force de(靠反复):\n• Il est d'autant plus content qu'il n'attendait rien.\n• À force de répéter, elle a mémorisé le poème.\n④ 区分:grâce à(正面原因)/ à cause de(负面)/ en raison de(中性正式)。",
+    "examples": [
+      {
+        "fr": "Il a tellement travaillé qu'il est tombé malade.",
+        "zh": "他工作太拼,以至于病倒了。(结果)"
+      },
+      {
+        "fr": "Répète, s'il te plaît, de sorte que tout le monde comprenne.",
+        "zh": "请再说一遍,好让所有人听懂。(目的 → 虚拟式)"
+      },
+      {
+        "fr": "Faute de temps, nous avons annulé la visite.",
+        "zh": "由于时间不够,我们取消了参观。"
+      }
+    ],
+    "exercises": [
+      {
+        "q": "Il parlait vite, ___ personne ne comprenait rien.",
+        "options": [
+          "pour que",
+          "si bien que",
+          "afin que",
+          "de peur que"
+        ],
+        "answer": 1,
+        "hint_zh": "已发生的结果 → si bien que + 直陈式"
+      },
+      {
+        "q": "Baisse la musique ___ les voisins puissent dormir.",
+        "options": [
+          "si bien que",
+          "pour que",
+          "tant que",
+          "alors que"
+        ],
+        "answer": 1,
+        "hint_zh": "目的(还没实现)→ pour que + 虚拟式(puissent)"
+      },
+      {
+        "q": "« De sorte que » 后接虚拟式时表示:",
+        "options": [
+          "结果",
+          "目的",
+          "原因",
+          "让步"
+        ],
+        "answer": 1,
+        "hint_zh": "de sorte que + 直陈式 = 结果;+ 虚拟式 = 目的"
+      },
+      {
+        "q": "Elle était ___ plus déçue qu'elle avait tout préparé.",
+        "options": [
+          "autant",
+          "d'autant",
+          "tant",
+          "aussi"
+        ],
+        "answer": 1,
+        "hint_zh": "d'autant plus + adj + que = 尤其因为……而更加……"
+      },
+      {
+        "q": "___ patience, il a fini par convaincre tout le monde.",
+        "options": [
+          "À force de",
+          "Faute de",
+          "À cause de",
+          "De peur de"
+        ],
+        "answer": 0,
+        "hint_zh": "à force de = 靠着反复/坚持;faute de = 因缺乏(语义相反)"
+      },
+      {
+        "q": "Le vol a été annulé ___ brouillard.",
+        "options": [
+          "grâce au",
+          "en raison du",
+          "à force du",
+          "afin du"
+        ],
+        "answer": 1,
+        "hint_zh": "航空公司公告体:en raison de(中性正式);grâce à 只用于正面结果"
+      },
+      {
+        "q": "Il a ___ mangé ___ il ne peut plus bouger.",
+        "options": [
+          "si / que",
+          "tellement / que",
+          "tant / que",
+          "aussi / que"
+        ],
+        "answer": 1,
+        "hint_zh": "tellement + 动词 + que 表程度结果(si 配形容词,tant 配名词/de)"
+      },
+      {
+        "q": "___ d'avoir compris, elle a refait l'exercice.",
+        "options": [
+          "Faute",
+          "Grâce",
+          "Force",
+          "Cause"
+        ],
+        "answer": 0,
+        "hint_zh": "faute de + inf. passé = 因为没有(理解)"
+      }
+    ]
+  },
+  {
     "id": "g001",
     "title": "« de + le / les » 的缩合",
     "level": "A2",
     "explain_zh": "介词 de 遇到定冠词 le / les 时必须缩合，不能分开写：\n• de + le → du（例：la fin du film）\n• de + les → des（例：la maison des voisins）\n• de + la → de la（不变）\n• de + l' → de l'（不变）\n这是你测试里写错的地方：« de les jeunes » 应为 « des jeunes »，« passer de temps » 应为 « passer du temps »。",
     "examples": [
-      { "fr": "Je parle des enfants.", "zh": "（de + les）我在说这些孩子。" },
-      { "fr": "C'est la voiture du voisin.", "zh": "（de + le）这是邻居的车。" },
-      { "fr": "J'aime passer du temps dehors.", "zh": "我喜欢在外面待着。" }
+      {
+        "fr": "Je parle des enfants.",
+        "zh": "（de + les）我在说这些孩子。"
+      },
+      {
+        "fr": "C'est la voiture du voisin.",
+        "zh": "（de + le）这是邻居的车。"
+      },
+      {
+        "fr": "J'aime passer du temps dehors.",
+        "zh": "我喜欢在外面待着。"
+      }
     ],
     "exercises": [
-      { "q": "Les jeunes passent beaucoup ___ temps en ligne.", "options": ["de", "du", "des", "de la"], "answer": 1, "hint_zh": "de + le temps → du temps" },
-      { "q": "C'est l'opinion ___ experts.", "options": ["de", "du", "des", "de l'"], "answer": 2, "hint_zh": "de + les experts → des experts" },
-      { "q": "Il s'occupe ___ environnement.", "options": ["du", "des", "de l'", "de la"], "answer": 2, "hint_zh": "environnement 以元音开头 → de l'" },
-      { "q": "La protection ___ planète est essentielle.", "options": ["du", "de la", "des", "de l'"], "answer": 1, "hint_zh": "la planète 阴性 → de la" },
-      { "q": "Beaucoup ___ gens pensent ça.", "options": ["de", "du", "des", "de la"], "answer": 0, "hint_zh": "陷阱：beaucoup de + 名词，永远用 de，不缩合！" }
+      {
+        "q": "Les jeunes passent beaucoup ___ temps en ligne.",
+        "options": [
+          "de",
+          "du",
+          "des",
+          "de la"
+        ],
+        "answer": 1,
+        "hint_zh": "de + le temps → du temps"
+      },
+      {
+        "q": "C'est l'opinion ___ experts.",
+        "options": [
+          "de",
+          "du",
+          "des",
+          "de l'"
+        ],
+        "answer": 2,
+        "hint_zh": "de + les experts → des experts"
+      },
+      {
+        "q": "Il s'occupe ___ environnement.",
+        "options": [
+          "du",
+          "des",
+          "de l'",
+          "de la"
+        ],
+        "answer": 2,
+        "hint_zh": "environnement 以元音开头 → de l'"
+      },
+      {
+        "q": "La protection ___ planète est essentielle.",
+        "options": [
+          "du",
+          "de la",
+          "des",
+          "de l'"
+        ],
+        "answer": 1,
+        "hint_zh": "la planète 阴性 → de la"
+      },
+      {
+        "q": "Beaucoup ___ gens pensent ça.",
+        "options": [
+          "de",
+          "du",
+          "des",
+          "de la"
+        ],
+        "answer": 0,
+        "hint_zh": "陷阱：beaucoup de + 名词，永远用 de，不缩合！"
+      }
     ]
   },
   {
@@ -23,15 +1182,64 @@
     "level": "A2",
     "explain_zh": "标准否定要把动词夹在 ne ... pas 中间：sujet + ne + 动词 + pas。\n口语里法国人常省略 ne，但写作（尤其 B2 考试）必须写出 ne。\n你测试里写的 « ç'est pas bien » 应为 « ce n'est pas bien »（ne 在元音前缩为 n'）。\n其他否定词：ne ... jamais（从不）、ne ... plus（不再）、ne ... rien（什么都不）。",
     "examples": [
-      { "fr": "Ce n'est pas une bonne idée.", "zh": "这不是个好主意。" },
-      { "fr": "Je ne comprends pas.", "zh": "我不明白。" },
-      { "fr": "Il ne fume plus.", "zh": "他不再抽烟了。" }
+      {
+        "fr": "Ce n'est pas une bonne idée.",
+        "zh": "这不是个好主意。"
+      },
+      {
+        "fr": "Je ne comprends pas.",
+        "zh": "我不明白。"
+      },
+      {
+        "fr": "Il ne fume plus.",
+        "zh": "他不再抽烟了。"
+      }
     ],
     "exercises": [
-      { "q": "« C'est pas grave » 的正式书面形式是：", "options": ["Ce n'est pas grave", "Ce est pas grave", "C'est ne pas grave", "Ce n'est grave pas"], "answer": 0, "hint_zh": "ne + est → n'est，pas 放动词后" },
-      { "q": "Je ___ comprends ___ la question.", "options": ["ne / pas", "pas / ne", "n' / pas", "ne / rien"], "answer": 0, "hint_zh": "comprends 以辅音开头 → ne（不缩合）" },
-      { "q": "Elle ___ mange ___ de viande.", "options": ["ne / plus", "pas / ne", "n' / plus", "ne / pas plus"], "answer": 0, "hint_zh": "不再 = ne ... plus" },
-      { "q": "正确的句子是：", "options": ["Il n'a rien dit.", "Il a rien dit pas.", "Il ne a rien dit.", "Il n'a pas rien dit."], "answer": 0, "hint_zh": "ne ... rien，复合时态里 rien 放助动词后" }
+      {
+        "q": "« C'est pas grave » 的正式书面形式是：",
+        "options": [
+          "Ce n'est pas grave",
+          "Ce est pas grave",
+          "C'est ne pas grave",
+          "Ce n'est grave pas"
+        ],
+        "answer": 0,
+        "hint_zh": "ne + est → n'est，pas 放动词后"
+      },
+      {
+        "q": "Je ___ comprends ___ la question.",
+        "options": [
+          "ne / pas",
+          "pas / ne",
+          "n' / pas",
+          "ne / rien"
+        ],
+        "answer": 0,
+        "hint_zh": "comprends 以辅音开头 → ne（不缩合）"
+      },
+      {
+        "q": "Elle ___ mange ___ de viande.",
+        "options": [
+          "ne / plus",
+          "pas / ne",
+          "n' / plus",
+          "ne / pas plus"
+        ],
+        "answer": 0,
+        "hint_zh": "不再 = ne ... plus"
+      },
+      {
+        "q": "正确的句子是：",
+        "options": [
+          "Il n'a rien dit.",
+          "Il a rien dit pas.",
+          "Il ne a rien dit.",
+          "Il n'a pas rien dit."
+        ],
+        "answer": 0,
+        "hint_zh": "ne ... rien，复合时态里 rien 放助动词后"
+      }
     ]
   },
   {
@@ -40,15 +1248,64 @@
     "level": "A2",
     "explain_zh": "-er 结尾动词（如 parler, occuper, trouver）现在时变位：\n• je parle（无 -s！）\n• tu parles\n• il/elle/on parle（无 -s！）\n• nous parlons\n• vous parlez\n• ils/elles parlent\n你测试里 « je trouves » 应为 « je trouve »，« le smartphone occupes » 应为 « occupe »（主语第三人称单数）。",
     "examples": [
-      { "fr": "Je trouve que c'est utile.", "zh": "我觉得这很有用。" },
-      { "fr": "Le téléphone occupe trop de place.", "zh": "手机占据了太多位置。" },
-      { "fr": "Ils partagent tout en ligne.", "zh": "他们把一切都发到网上。" }
+      {
+        "fr": "Je trouve que c'est utile.",
+        "zh": "我觉得这很有用。"
+      },
+      {
+        "fr": "Le téléphone occupe trop de place.",
+        "zh": "手机占据了太多位置。"
+      },
+      {
+        "fr": "Ils partagent tout en ligne.",
+        "zh": "他们把一切都发到网上。"
+      }
     ],
     "exercises": [
-      { "q": "Je ___ que c'est important.", "options": ["trouve", "trouves", "trouvent", "trouver"], "answer": 0, "hint_zh": "je + -er 动词 → 词尾 -e，无 s" },
-      { "q": "Le smartphone ___ tout notre temps.", "options": ["occupe", "occupes", "occupent", "occuper"], "answer": 0, "hint_zh": "il/le smartphone（第三人称单数）→ -e" },
-      { "q": "Les jeunes ___ beaucoup de photos.", "options": ["partage", "partages", "partagent", "partager"], "answer": 2, "hint_zh": "ils/les jeunes（复数）→ -ent" },
-      { "q": "Nous ___ ce problème.", "options": ["étudie", "étudies", "étudions", "étudient"], "answer": 2, "hint_zh": "nous → -ons" }
+      {
+        "q": "Je ___ que c'est important.",
+        "options": [
+          "trouve",
+          "trouves",
+          "trouvent",
+          "trouver"
+        ],
+        "answer": 0,
+        "hint_zh": "je + -er 动词 → 词尾 -e，无 s"
+      },
+      {
+        "q": "Le smartphone ___ tout notre temps.",
+        "options": [
+          "occupe",
+          "occupes",
+          "occupent",
+          "occuper"
+        ],
+        "answer": 0,
+        "hint_zh": "il/le smartphone（第三人称单数）→ -e"
+      },
+      {
+        "q": "Les jeunes ___ beaucoup de photos.",
+        "options": [
+          "partage",
+          "partages",
+          "partagent",
+          "partager"
+        ],
+        "answer": 2,
+        "hint_zh": "ils/les jeunes（复数）→ -ent"
+      },
+      {
+        "q": "Nous ___ ce problème.",
+        "options": [
+          "étudie",
+          "étudies",
+          "étudions",
+          "étudient"
+        ],
+        "answer": 2,
+        "hint_zh": "nous → -ons"
+      }
     ]
   },
   {
@@ -57,15 +1314,64 @@
     "level": "A2-B1",
     "explain_zh": "形容词要和它修饰的名词在「阴阳性」和「单复数」上保持一致：\n• 阴性常 +e：grand → grande\n• 复数常 +s：grand → grands / grandes\n你测试里 « ils sont uncapable » 应为 « incapables »（复数 +s，且拼写是 in-），« les information partagé » 应为 « les informations partagées »（阴性复数）。",
     "examples": [
-      { "fr": "une décision importante", "zh": "一个重要的决定（阴性 +e）" },
-      { "fr": "des informations fiables", "zh": "可靠的信息（阴性复数 +s）" },
-      { "fr": "Ils sont incapables de mentir.", "zh": "他们不会说谎（阳性复数）。" }
+      {
+        "fr": "une décision importante",
+        "zh": "一个重要的决定（阴性 +e）"
+      },
+      {
+        "fr": "des informations fiables",
+        "zh": "可靠的信息（阴性复数 +s）"
+      },
+      {
+        "fr": "Ils sont incapables de mentir.",
+        "zh": "他们不会说谎（阳性复数）。"
+      }
     ],
     "exercises": [
-      { "q": "Les ___ partagées ne sont pas toujours vraies.", "options": ["information", "informations", "informationes", "informations"], "answer": 1, "hint_zh": "information 阴性，复数 +s → informations" },
-      { "q": "Ces sources sont ___.", "options": ["fiable", "fiables", "fiabes", "fiablees"], "answer": 1, "hint_zh": "sources 复数 → fiables" },
-      { "q": "Une habitude ___.", "options": ["néfaste", "néfastes", "néfast", "néfasté"], "answer": 0, "hint_zh": "habitude 阴性单数；néfaste 本来就以 -e 结尾，不再加" },
-      { "q": "Ils sont ___ de vérifier.", "options": ["incapable", "incapables", "uncapable", "incapablent"], "answer": 1, "hint_zh": "拼写 in-，主语复数 → incapables" }
+      {
+        "q": "Les ___ partagées ne sont pas toujours vraies.",
+        "options": [
+          "information",
+          "informations",
+          "informationes",
+          "informations"
+        ],
+        "answer": 1,
+        "hint_zh": "information 阴性，复数 +s → informations"
+      },
+      {
+        "q": "Ces sources sont ___.",
+        "options": [
+          "fiable",
+          "fiables",
+          "fiabes",
+          "fiablees"
+        ],
+        "answer": 1,
+        "hint_zh": "sources 复数 → fiables"
+      },
+      {
+        "q": "Une habitude ___.",
+        "options": [
+          "néfaste",
+          "néfastes",
+          "néfast",
+          "néfasté"
+        ],
+        "answer": 0,
+        "hint_zh": "habitude 阴性单数；néfaste 本来就以 -e 结尾，不再加"
+      },
+      {
+        "q": "Ils sont ___ de vérifier.",
+        "options": [
+          "incapable",
+          "incapables",
+          "uncapable",
+          "incapablent"
+        ],
+        "answer": 1,
+        "hint_zh": "拼写 in-，主语复数 → incapables"
+      }
     ]
   },
   {
@@ -74,16 +1380,108 @@
     "level": "B1",
     "explain_zh": "关系代词把两句话连起来，选哪个取决于它在从句里的角色：\n• qui = 从句的【主语】（后面直接跟动词）：l'homme qui parle\n• que = 从句的【直接宾语】（后面跟主语）：le livre que je lis\n• dont = 替代带 de 的成分（parler de, avoir besoin de…）：le livre dont je parle\n• où = 表示【地点或时间】：la ville où j'habite / le jour où…\n你测试里：« un appartement qui soit lumineux »（qui 作主语），« le livre dont je t'ai parlé »（parler de → dont）。",
     "examples": [
-      { "fr": "Je cherche un ami qui sache écouter.", "zh": "我在找一个会倾听的朋友（qui 作主语）。" },
-      { "fr": "C'est le sujet dont nous parlons.", "zh": "这就是我们谈论的话题（parler de → dont）。" },
-      { "fr": "Le jour où je suis arrivé, il pleuvait.", "zh": "我到达的那天在下雨（时间 → où）。" }
+      {
+        "fr": "Je cherche un ami qui sache écouter.",
+        "zh": "我在找一个会倾听的朋友（qui 作主语）。"
+      },
+      {
+        "fr": "C'est le sujet dont nous parlons.",
+        "zh": "这就是我们谈论的话题（parler de → dont）。"
+      },
+      {
+        "fr": "Le jour où je suis arrivé, il pleuvait.",
+        "zh": "我到达的那天在下雨（时间 → où）。"
+      }
     ],
     "exercises": [
-      { "q": "Je cherche un appartement ___ soit lumineux.", "options": ["qui", "que", "dont", "où"], "answer": 0, "hint_zh": "后面直接是动词 soit → 主语 → qui" },
-      { "q": "Le livre ___ je t'ai parlé est sorti.", "options": ["que", "qui", "dont", "où"], "answer": 2, "hint_zh": "parler DE qch → dont" },
-      { "q": "C'est une décision ___ je regrette.", "options": ["qui", "que", "dont", "où"], "answer": 1, "hint_zh": "regretter qch（直接宾语）→ que" },
-      { "q": "La ville ___ je suis né est petite.", "options": ["qui", "que", "dont", "où"], "answer": 3, "hint_zh": "地点 → où" },
-      { "q": "J'ai un ami ___ le père est médecin.", "options": ["qui", "que", "dont", "où"], "answer": 2, "hint_zh": "le père DE mon ami → dont" }
+      {
+        "q": "Je cherche un appartement ___ soit lumineux.",
+        "options": [
+          "qui",
+          "que",
+          "dont",
+          "où"
+        ],
+        "answer": 0,
+        "hint_zh": "后面直接是动词 soit → 主语 → qui"
+      },
+      {
+        "q": "Le livre ___ je t'ai parlé est sorti.",
+        "options": [
+          "que",
+          "qui",
+          "dont",
+          "où"
+        ],
+        "answer": 2,
+        "hint_zh": "parler DE qch → dont"
+      },
+      {
+        "q": "C'est une décision ___ je regrette.",
+        "options": [
+          "qui",
+          "que",
+          "dont",
+          "où"
+        ],
+        "answer": 1,
+        "hint_zh": "regretter qch（直接宾语）→ que"
+      },
+      {
+        "q": "La ville ___ je suis né est petite.",
+        "options": [
+          "qui",
+          "que",
+          "dont",
+          "où"
+        ],
+        "answer": 3,
+        "hint_zh": "地点 → où"
+      },
+      {
+        "q": "J'ai un ami ___ le père est médecin.",
+        "options": [
+          "qui",
+          "que",
+          "dont",
+          "où"
+        ],
+        "answer": 2,
+        "hint_zh": "le père DE mon ami → dont"
+      },
+      {
+        "q": "___ me plaît dans ce projet, c'est sa simplicité.",
+        "options": [
+          "Ce qui",
+          "Ce que",
+          "Ce dont",
+          "Quoi"
+        ],
+        "answer": 0,
+        "hint_zh": "plaire 的主语 → ce qui(整件事作主语)"
+      },
+      {
+        "q": "Dis-moi ___ tu as besoin.",
+        "options": [
+          "ce qui",
+          "ce que",
+          "ce dont",
+          "que"
+        ],
+        "answer": 2,
+        "hint_zh": "avoir besoin DE → ce dont"
+      },
+      {
+        "q": "Le quartier ___ j'ai grandi a beaucoup changé.",
+        "options": [
+          "qui",
+          "que",
+          "dont",
+          "où"
+        ],
+        "answer": 3,
+        "hint_zh": "地点先行词 → où"
+      }
     ]
   },
   {
@@ -92,15 +1490,97 @@
     "level": "B1-B2",
     "explain_zh": "某些表达后面必须用虚拟式（subjonctif），表示愿望、必要、情感、让步等。\n常见触发词：il faut que（必须）、bien que / quoique（虽然）、je veux que、pour que（为了）、s'attendre à ce que、avant que。\n规则变位（多数动词）：取 ils 形式去掉 -ent，加 -e/-es/-e/-ions/-iez/-ent。\n例：partir → ils partent → que je parte, que tu partes…\n你测试里：« il faut que tu partes »、« je m'attendais à ce qu'il réagisse »。",
     "examples": [
-      { "fr": "Il faut que tu partes tôt.", "zh": "你必须早点走。" },
-      { "fr": "Bien qu'il soit riche, il vit simplement.", "zh": "虽然他很富有，却生活简朴。" },
-      { "fr": "Je veux que vous compreniez.", "zh": "我希望你们能理解。" }
+      {
+        "fr": "Il faut que tu partes tôt.",
+        "zh": "你必须早点走。"
+      },
+      {
+        "fr": "Bien qu'il soit riche, il vit simplement.",
+        "zh": "虽然他很富有，却生活简朴。"
+      },
+      {
+        "fr": "Je veux que vous compreniez.",
+        "zh": "我希望你们能理解。"
+      }
     ],
     "exercises": [
-      { "q": "Il faut que tu ___ plus tôt demain.", "options": ["pars", "partes", "partiras", "partais"], "answer": 1, "hint_zh": "il faut que + 虚拟式 → partes" },
-      { "q": "Bien qu'il ___ riche, il est modeste.", "options": ["est", "soit", "sera", "était"], "answer": 1, "hint_zh": "bien que + 虚拟式；être 的虚拟式 → soit" },
-      { "q": "Je m'attendais à ce qu'il ___.", "options": ["réagit", "réagisse", "réagira", "a réagi"], "answer": 1, "hint_zh": "s'attendre à ce que + 虚拟式 → réagisse" },
-      { "q": "Pour que nous ___ réussir, il faut travailler.", "options": ["pouvons", "puissions", "pourrons", "pouvions"], "answer": 1, "hint_zh": "pour que + 虚拟式；pouvoir → puissions" }
+      {
+        "q": "Il faut que tu ___ plus tôt demain.",
+        "options": [
+          "pars",
+          "partes",
+          "partiras",
+          "partais"
+        ],
+        "answer": 1,
+        "hint_zh": "il faut que + 虚拟式 → partes"
+      },
+      {
+        "q": "Bien qu'il ___ riche, il est modeste.",
+        "options": [
+          "est",
+          "soit",
+          "sera",
+          "était"
+        ],
+        "answer": 1,
+        "hint_zh": "bien que + 虚拟式；être 的虚拟式 → soit"
+      },
+      {
+        "q": "Je m'attendais à ce qu'il ___.",
+        "options": [
+          "réagit",
+          "réagisse",
+          "réagira",
+          "a réagi"
+        ],
+        "answer": 1,
+        "hint_zh": "s'attendre à ce que + 虚拟式 → réagisse"
+      },
+      {
+        "q": "Pour que nous ___ réussir, il faut travailler.",
+        "options": [
+          "pouvons",
+          "puissions",
+          "pourrons",
+          "pouvions"
+        ],
+        "answer": 1,
+        "hint_zh": "pour que + 虚拟式；pouvoir → puissions"
+      },
+      {
+        "q": "J'espère que tu ___ bien.",
+        "options": [
+          "ailles",
+          "vas",
+          "sois allé",
+          "allasses"
+        ],
+        "answer": 1,
+        "hint_zh": "陷阱!espérer que + 直陈式,不用虚拟式"
+      },
+      {
+        "q": "Il est probable qu'il ___ demain.",
+        "options": [
+          "vienne",
+          "viendra",
+          "vînt",
+          "soit venu"
+        ],
+        "answer": 1,
+        "hint_zh": "il est probable que + 直陈式(il est possible que 才 + 虚拟式)"
+      },
+      {
+        "q": "C'est la seule personne qui me ___ vraiment.",
+        "options": [
+          "comprend",
+          "comprenne",
+          "comprendra",
+          "a compris"
+        ],
+        "answer": 1,
+        "hint_zh": "le seul / le premier / le meilleur... qui + 虚拟式"
+      }
     ]
   },
   {
@@ -109,15 +1589,64 @@
     "level": "A2-B1",
     "explain_zh": "复合过去时表示【已完成、具体的过去动作】。\n构成 = 助动词（avoir 或 être 的现在时）+ 过去分词。\n• 绝大多数动词用 avoir：j'ai mangé, elle a fini, nous avons pris\n• 表示移动/状态变化的动词 + 所有代词式动词用 être，且过去分词要和主语【性数一致】：elle est allée, ils sont partis, je me suis levé(e)\n过去分词规则：-er → -é（parlé）、-ir → -i（fini）；常见不规则要背：faire→fait, prendre→pris, voir→vu, avoir→eu, être→été, mettre→mis, écrire→écrit。",
     "examples": [
-      { "fr": "J'ai regardé un film hier soir.", "zh": "我昨晚看了一部电影。（avoir + 分词）" },
-      { "fr": "Elle est arrivée en retard.", "zh": "她迟到了。（être + 一致，加 e）" },
-      { "fr": "Ils ont pris le train.", "zh": "他们坐了火车。（不规则 prendre→pris）" }
+      {
+        "fr": "J'ai regardé un film hier soir.",
+        "zh": "我昨晚看了一部电影。（avoir + 分词）"
+      },
+      {
+        "fr": "Elle est arrivée en retard.",
+        "zh": "她迟到了。（être + 一致，加 e）"
+      },
+      {
+        "fr": "Ils ont pris le train.",
+        "zh": "他们坐了火车。（不规则 prendre→pris）"
+      }
     ],
     "exercises": [
-      { "q": "Hier, j'___ un bon film.", "options": ["ai regardé", "regardais", "ai regardais", "as regardé"], "answer": 0, "hint_zh": "passé composé = avoir(ai) + regardé" },
-      { "q": "Elle ___ au supermarché ce matin.", "options": ["a allé", "est allé", "est allée", "a allée"], "answer": 2, "hint_zh": "aller 用 être，阴性主语 → est allée" },
-      { "q": "Le participe passé de « prendre » est :", "options": ["prendu", "pris", "prené", "prendé"], "answer": 1, "hint_zh": "不规则：prendre → pris" },
-      { "q": "Nous ___ nos devoirs.", "options": ["avons fini", "sommes finis", "avons finit", "a fini"], "answer": 0, "hint_zh": "finir 用 avoir，分词 fini" }
+      {
+        "q": "Hier, j'___ un bon film.",
+        "options": [
+          "ai regardé",
+          "regardais",
+          "ai regardais",
+          "as regardé"
+        ],
+        "answer": 0,
+        "hint_zh": "passé composé = avoir(ai) + regardé"
+      },
+      {
+        "q": "Elle ___ au supermarché ce matin.",
+        "options": [
+          "a allé",
+          "est allé",
+          "est allée",
+          "a allée"
+        ],
+        "answer": 2,
+        "hint_zh": "aller 用 être，阴性主语 → est allée"
+      },
+      {
+        "q": "Le participe passé de « prendre » est :",
+        "options": [
+          "prendu",
+          "pris",
+          "prené",
+          "prendé"
+        ],
+        "answer": 1,
+        "hint_zh": "不规则：prendre → pris"
+      },
+      {
+        "q": "Nous ___ nos devoirs.",
+        "options": [
+          "avons fini",
+          "sommes finis",
+          "avons finit",
+          "a fini"
+        ],
+        "answer": 0,
+        "hint_zh": "finir 用 avoir，分词 fini"
+      }
     ]
   },
   {
@@ -126,15 +1655,64 @@
     "level": "B1",
     "explain_zh": "imparfait 表示过去的【习惯、重复、背景、描写、持续状态】，没有明确的开始或结束。\n构成：取 nous 的现在时形式，去掉 -ons，得到词根，再加词尾：\n-ais / -ais / -ait / -ions / -iez / -aient。\n例：nous parlons → parl- → je parlais；nous finissons → finiss- → il finissait。\n唯一不规则词根：être → ét-（j'étais, il était…）。\n常见搭配词：quand, pendant que, tous les jours, souvent, toujours, autrefois。",
     "examples": [
-      { "fr": "Quand j'étais jeune, je lisais beaucoup.", "zh": "我年轻时读很多书。（习惯）" },
-      { "fr": "Il faisait beau et les oiseaux chantaient.", "zh": "天气很好，鸟儿在歌唱。（背景描写）" },
-      { "fr": "Nous habitions à la campagne.", "zh": "我们那时住在乡下。（持续状态）" }
+      {
+        "fr": "Quand j'étais jeune, je lisais beaucoup.",
+        "zh": "我年轻时读很多书。（习惯）"
+      },
+      {
+        "fr": "Il faisait beau et les oiseaux chantaient.",
+        "zh": "天气很好，鸟儿在歌唱。（背景描写）"
+      },
+      {
+        "fr": "Nous habitions à la campagne.",
+        "zh": "我们那时住在乡下。（持续状态）"
+      }
     ],
     "exercises": [
-      { "q": "Quand j'étais petit, je ___ souvent au parc.", "options": ["suis allé", "allais", "irai", "vais"], "answer": 1, "hint_zh": "过去习惯 → imparfait：allais" },
-      { "q": "L'imparfait de « nous faisons » à « il » est :", "options": ["il faisait", "il faisalt", "il fait", "il a fait"], "answer": 0, "hint_zh": "fais- + ait → faisait" },
-      { "q": "Il ___ froid et il pleuvait.", "options": ["a fait", "faisait", "fera", "fait"], "answer": 1, "hint_zh": "天气背景描写 → imparfait" },
-      { "q": "L'imparfait de « être » (tu) est :", "options": ["étais", "étaits", "es", "as été"], "answer": 0, "hint_zh": "être 特殊词根 ét- → tu étais" }
+      {
+        "q": "Quand j'étais petit, je ___ souvent au parc.",
+        "options": [
+          "suis allé",
+          "allais",
+          "irai",
+          "vais"
+        ],
+        "answer": 1,
+        "hint_zh": "过去习惯 → imparfait：allais"
+      },
+      {
+        "q": "L'imparfait de « nous faisons » à « il » est :",
+        "options": [
+          "il faisait",
+          "il faisalt",
+          "il fait",
+          "il a fait"
+        ],
+        "answer": 0,
+        "hint_zh": "fais- + ait → faisait"
+      },
+      {
+        "q": "Il ___ froid et il pleuvait.",
+        "options": [
+          "a fait",
+          "faisait",
+          "fera",
+          "fait"
+        ],
+        "answer": 1,
+        "hint_zh": "天气背景描写 → imparfait"
+      },
+      {
+        "q": "L'imparfait de « être » (tu) est :",
+        "options": [
+          "étais",
+          "étaits",
+          "es",
+          "as été"
+        ],
+        "answer": 0,
+        "hint_zh": "être 特殊词根 ét- → tu étais"
+      }
     ]
   },
   {
@@ -143,15 +1721,97 @@
     "level": "B1-B2",
     "explain_zh": "两者都说过去，但角度不同：\n• imparfait = 背景、习惯、描写、持续状态（“当时是什么样 / 经常做什么”）。\n• passé composé = 推动情节的、具体完成的、一次性动作（“然后发生了什么”）。\n经典结构：背景(imparfait) + 突发动作(passé composé)：\n« Je dormais quand le téléphone a sonné. »（我正在睡觉，这时电话响了。）\n标志词：imparfait → souvent, tous les jours, autrefois, pendant que；passé composé → soudain, hier, un jour, à ce moment-là, tout à coup。",
     "examples": [
-      { "fr": "Je lisais quand tu es arrivé.", "zh": "你来的时候我正在看书。（背景 + 突发）" },
-      { "fr": "Tous les étés, nous allions à la mer.", "zh": "每年夏天我们都去海边。（习惯 → imparfait）" },
-      { "fr": "Hier, j'ai rencontré un vieil ami.", "zh": "昨天我遇见了一位老朋友。（一次性 → passé composé）" }
+      {
+        "fr": "Je lisais quand tu es arrivé.",
+        "zh": "你来的时候我正在看书。（背景 + 突发）"
+      },
+      {
+        "fr": "Tous les étés, nous allions à la mer.",
+        "zh": "每年夏天我们都去海边。（习惯 → imparfait）"
+      },
+      {
+        "fr": "Hier, j'ai rencontré un vieil ami.",
+        "zh": "昨天我遇见了一位老朋友。（一次性 → passé composé）"
+      }
     ],
     "exercises": [
-      { "q": "Je ___ (dormir) quand le téléphone a sonné.", "options": ["ai dormi", "dormais", "dormirai", "dors"], "answer": 1, "hint_zh": "正在进行的背景 → imparfait：dormais" },
-      { "q": "Soudain, quelqu'un ___ à la porte.", "options": ["frappait", "a frappé", "frappe", "frappera"], "answer": 1, "hint_zh": "soudain（突发）→ passé composé" },
-      { "q": "Quand j'étais enfant, nous ___ souvent au cinéma.", "options": ["sommes allés", "allions", "irons", "allons"], "answer": 1, "hint_zh": "souvent（习惯）→ imparfait" },
-      { "q": "Hier soir, il ___ un accident sur l'autoroute.", "options": ["y avait", "il y a eu", "aura", "a"], "answer": 1, "hint_zh": "一次性事件 → passé composé：il y a eu" }
+      {
+        "q": "Je ___ (dormir) quand le téléphone a sonné.",
+        "options": [
+          "ai dormi",
+          "dormais",
+          "dormirai",
+          "dors"
+        ],
+        "answer": 1,
+        "hint_zh": "正在进行的背景 → imparfait：dormais"
+      },
+      {
+        "q": "Soudain, quelqu'un ___ à la porte.",
+        "options": [
+          "frappait",
+          "a frappé",
+          "frappe",
+          "frappera"
+        ],
+        "answer": 1,
+        "hint_zh": "soudain（突发）→ passé composé"
+      },
+      {
+        "q": "Quand j'étais enfant, nous ___ souvent au cinéma.",
+        "options": [
+          "sommes allés",
+          "allions",
+          "irons",
+          "allons"
+        ],
+        "answer": 1,
+        "hint_zh": "souvent（习惯）→ imparfait"
+      },
+      {
+        "q": "Hier soir, il ___ un accident sur l'autoroute.",
+        "options": [
+          "y avait",
+          "il y a eu",
+          "aura",
+          "a"
+        ],
+        "answer": 1,
+        "hint_zh": "一次性事件 → passé composé：il y a eu"
+      },
+      {
+        "q": "Pendant que je ___, il mettait la table.",
+        "options": [
+          "cuisinais",
+          "ai cuisiné",
+          "cuisinerai",
+          "avais cuisiné"
+        ],
+        "answer": 0,
+        "hint_zh": "pendant que + 两个同时进行的背景动作 → imparfait"
+      },
+      {
+        "q": "Ce matin-là, elle ___ son café, a pris son sac et est sortie.",
+        "options": [
+          "buvait",
+          "a bu",
+          "boirait",
+          "avait bu"
+        ],
+        "answer": 1,
+        "hint_zh": "连续动作链推动情节 → passé composé"
+      },
+      {
+        "q": "Je ne savais pas que tu ___ déjà ___ ce film.",
+        "options": [
+          "as / vu",
+          "avais / vu",
+          "es / vu",
+          "aurais / vu"
+        ],
+        "answer": 1,
+        "hint_zh": "比「我不知道」更早看过 → plus-que-parfait:avais vu"
+      }
     ]
   }
 ]
