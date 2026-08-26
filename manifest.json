@@ -1,7 +1,7 @@
 {
-  "name": "French B2 · 每日法语",
-  "short_name": "French B2",
-  "description": "每天约30分钟，词汇·语法·阅读·听力，冲刺法语 B2。",
+  "name": "法语语法练习 · Grammaire",
+  "short_name": "法语语法",
+  "description": "每天 45 分钟法语语法特训：错题重练 · 语法主题 · 动词变位 · 语法阅读。",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
